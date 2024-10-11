@@ -24,7 +24,7 @@ function Wisata() {
         setTopImageAnimation(true);
       } else {
         setTopTextAnimation(false); // Reset animasi saat elemen keluar dari viewport
-        setTopImageAnimation(false); // Reset animasi saat elemen keluar dari viewport
+        setTopImageAnimation(false);
       }
 
       // Cek apakah elemen bawah (teks dan gambar) terlihat
@@ -33,7 +33,7 @@ function Wisata() {
         setBottomImageAnimation(true);
       } else {
         setBottomTextAnimation(false); // Reset animasi saat elemen keluar dari viewport
-        setBottomImageAnimation(false); // Reset animasi saat elemen keluar dari viewport
+        setBottomImageAnimation(false);
       }
     }
   };
@@ -51,23 +51,23 @@ function Wisata() {
 
   return (
     <div>
-      <div className="bg-gray-100 py-12 flex flex-row items-center">
-        <div className="container mx-auto flex flex-row items-start">
+      <div className="bg-gray-100 py-12 flex flex-col md:flex-row items-center">
+        <div className="container mx-auto flex flex-col md:flex-row items-start">
           {/* Teks bagian kiri */}
           <div
             ref={topTextRef}
-            className={`w-1/2 text-left relative transform transition-all duration-700 ${
+            className={`w-full md:w-1/2 text-left relative transform transition-all duration-700 ${
               topTextAnimation ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'
             }`}
           >
             {/* Teks "Destinasi Jember" yang ingin berada di atas */}
-            <h2 className="text-[7rem] font-bebas_neue text-gray-800 absolute top-0">
+            <h2 className="text-[4rem] md:text-[7rem] font-bebas_neue text-gray-800 absolute top-0">
               Destinasi Jember
             </h2>
 
             {/* Konten teks lainnya tetap di tengah */}
-            <div className="mt-36">
-              <h2 className="text-3xl font-bold text-gray-800">Papuma Beach</h2>
+            <div className="mt-16 md:mt-36">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Papuma Beach</h2>
               <p className="text-gray-600 mt-4 max-w-2xl">
                 Pantai Papuma merupakan Kabupaten yang terletak di ujung timur Pulau Jawa yang memiliki keragaman suku budaya, 
                 serta keindahan alam yang luar biasa. Berbagai wisata alam kami suguhkan untuk menemani liburan anda sekalian.
@@ -79,39 +79,39 @@ function Wisata() {
           {/* Gambar bagian kanan */}
           <div
             ref={topImageRef}
-            className={`w-1/2 transform transition-all duration-700 ${
+            className={`w-full md:w-1/2 transform transition-all duration-700 ${
               topImageAnimation ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'
             }`}
           >
-            <img src="image/gallery/papuma1.jpg" alt="Pantai Papuma" className="ml-auto object-cover" />
+            <img src="image/gallery/papuma1.jpg" alt="Pantai Papuma" className="ml-auto object-cover w-full h-auto" />
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto flex flex-row gap-20 items-start">
+      <div className="container mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-start">
         {/* Gambar bagian atas untuk teks bawah */}
         <div
           ref={bottomImageRef}
-          className={`w-1/2 transform transition-all duration-700 ${
+          className={`w-full md:w-1/2 transform transition-all duration-700 ${
             bottomImageAnimation ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'
           }`}
         >
-          <img src="image/gallery/papuma2.jpg" alt="Pantai Papuma" className="ml-auto object-cover" />
+          <img src="image/gallery/papuma2.jpg" alt="Pantai Papuma" className="ml-auto object-cover w-full h-auto" />
         </div>
 
         {/* Teks bagian bawah */}
         <div
           ref={bottomTextRef}
-          className={`w-1/2 text-left relative transform transition-all duration-700 ${
+          className={`w-full md:w-1/2 text-left relative transform transition-all duration-700 ${
             bottomTextAnimation ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'
           }`}
         >
-          <h2 className="text-[7rem] font-bebas_neue text-gray-800 absolute top-0">
+          <h2 className="text-[4rem] md:text-[7rem] font-bebas_neue text-gray-800 absolute top-0">
             Destinasi Jember
           </h2>
 
-          <div className="mt-36">
-            <h2 className="text-3xl font-bold text-gray-800">Papuma Beach</h2>
+          <div className="mt-16 md:mt-36">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Papuma Beach</h2>
             <p className="text-gray-600 mt-4 max-w-2xl">
               Pantai Papuma merupakan Kabupaten yang terletak di ujung timur Pulau Jawa yang memiliki keragaman suku budaya, 
               serta keindahan alam yang luar biasa. Berbagai wisata alam kami suguhkan untuk menemani liburan anda sekalian.
