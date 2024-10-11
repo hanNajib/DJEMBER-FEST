@@ -6,19 +6,19 @@ export default function App() {
     <div className="bg-neutral-800 over">
       <Navbar></Navbar>
       <section
-        className="home w-[100vw]] h-[105vh] bg-gradient-to-tl from-slate-900 to-transparent opacity-70" 
+        className="home w-[100vw]] h-[100vh] bg-gradient-to-tl from-slate-200 to-violet-100 opacity-70" 
         id=""
       >
         
         <div
-        className="absolute w-[100vw] h-[105vh] inset-0 bg-cover bg-right opacity-70"
+        className="absolute w-[100vw] h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-60"
         style={{
-          backgroundImage: `linear-gradient(to right, transparent, #475569), url('/image/revisi-lagi.jpg')`,
+          backgroundImage: `linear-gradient(to right, #f5f3ff, #e2e8f0), url('/image/revisi lagiiii (1).jpg')`,
           backgroundBlendMode: 'multiply', // This blends the image and gradient smoothly
         }}
       ></div>
-        {/* <div className="absolute w-[100vw] h-[105vh] bg-gradient-to-bl from-transparent to-red-500 bottom-0"></div> */}
-        <div className="w-[100%] flex pt-48 relative text-slate-50 ">
+        <div className="absolute w-[100vw] h-[105vh] bg-gradient-to-br from-slate-800 to-transparen "></div>
+        <div className="w-[100%] flex pt-48 relative text-slate-50  ">
           <div className="text flex flex-col pl-5 md:pl-28 ">
             <motion.p
               initial={{
@@ -42,13 +42,13 @@ export default function App() {
         <div className="flex gap-7 relative top-2 left-1 scale-75 md:left-28 md:justify-normal md:scale-100 ">
           <a
             href=""
-            className="w-40 h-14 bg-transparent border-[2px] font-semibold border-slate-100 text-white rounded-lg text-2xl flex justify-center items-center text-[16px]"
+            className="w-40 h-14 bg-transparent border-[2px] font-semibold shadow-lg bg-slate- border-slate-100 text-white rounded-lg text-2xl flex justify-center items-center text-[16px]"
           >
             Get Started
           </a>
           <a
             href=""
-            className="w-40 h-14 bg-gradient-to-r from-violet-700 to-blue-400 font-semibold text-white rounded-lg text-2xl flex justify-center items-center text-[16px]"
+            className="w-40 h-14 bg-gradient-to-r from-violet-700 to-blue-400 font-semibold shadow-lg text-white rounded-lg text-2xl flex justify-center items-center text-[16px]"
           >
             Get Started
           </a>
