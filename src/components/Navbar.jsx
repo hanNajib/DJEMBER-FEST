@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="flex">
       
     </div>
-      <nav className="z-50 w-screen md:h-[80px] bg-slate-200 opacity-95 flex flex-col justify-center items-center gap-8 font-semibold text-[23px] fixed top-0 text-neutral-800 py-2 md:flex-row  md:text-neutral-800 md:gap-8">
+      <nav className="z-50 w-screen md:h-[80px] bg-slate-200 shadow-lg flex flex-col justify-center items-center gap-8 font-bold text-[23px] fixed top-0 text-neutral-800 py-2 md:flex-row  md:text-neutral-800 md:gap-8">
         <div className="w-full flex justify-between items-center px- md:hidden">
           <p>gathan</p>
           <button
