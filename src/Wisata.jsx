@@ -14,7 +14,7 @@ function Wisata() {
 
       {/* Konten teks lainnya tetap di tengah */}
       <div className="mt-36">
-        <h2 className="text-3xl  font-bold text-gray-800">This is Jember</h2>
+        <h2 className="text-3xl  font-bold text-gray-800">Papuma Beach</h2>
         <p className="text-gray-600 mt-4 max-w-2xl">
           Pantai Papuma merupakan Kabupaten yang terletak di ujung timur Pulau Jawa yang memiliki keragaman suku budaya, 
           serta keindahan alam yang luar biasa. Berbagai wisata alam kami suguhkan untuk menemani liburan anda sekalian.
