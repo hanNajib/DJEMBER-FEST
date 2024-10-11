@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="flex">
       
     </div>
-      <nav className="z-50 w-screen md:h-[80px] bg-slate-200 shadow-lg flex flex-col justify-center items-center gap-8 font-bold text-[23px] fixed top-0 text-neutral-800 py-2 md:flex-row  md:text-neutral-800 md:gap-8">
+      <nav className="z-50 w-screen md:h-[80px] bg-slate-200 shadow-lg flex flex-col justify-center items-center gap-8 font-bold text-[23px] fixed top-0 text-neutral-800 py-2 md:flex-row  md:text-neutral-800 md:gap-8 ">
         <div className="w-full flex justify-between items-center px- md:hidden">
           <p>gathan</p>
           <button
@@ -62,11 +62,21 @@ export default function Navbar() {
           className={`${NavButton ? "opacity-0 md:opacity-100 translate-y-[]" : "opacity-100 translate-y-0 scale-100" } transition-all duration-500 md:flex md:flex-row text-neutral-800 flex flex-col items-center gap-4 md:gap-8 w-screen md:w-auto`}
         >
           <img src="" alt="logo" className="hidden" />
-          <a href="#" className="">Home</a>
-          <a href="#">Rofif</a>
-          <a href="#">Royhan</a>
-          <a href="#">gtahan</a>
-          <a href="">gabriel</a>
+          <a href="#" className="">Home
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          </a>
+          <a href="#">Rofif
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          </a>
+          <a href="#">Royhan
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          </a>
+          <a href="#">gtahan
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          </a>
+          <a href="">gabriel
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          </a>
         </div>
       </nav>
     </>
