@@ -66,16 +66,16 @@ export default function Navbar() {
           <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
           </a>
           <a href="#">Rofif
-          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 transform duration-400"></div>
           </a>
           <a href="#">Royhan
-          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 transform duration-400"></div>
           </a>
           <a href="#">gtahan
-          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 transform duration-400"></div>
           </a>
-          <a href="">gabriel
-          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 duration-200"></div>
+          <a href="#">gabriel
+          <div class="garis rounded-lg w-full h-2 bg-transparent hover:bg-neutral-800 transform duration-400"></div>
           </a>
         </div>
       </nav>
