@@ -1,4 +1,3 @@
-import React from 'react';
 
 const AboutUs = () => {
   return (
@@ -37,9 +36,9 @@ const AboutUs = () => {
 
           {/* Text Section */}
           <div className="md:w-1/2 mt-8 md:mt-0 md:ml-16">
-            <h2 className="text-9xl font-bebas_neue  font-bold text-neutral-800 mb-4">About Us</h2>
+            <h2 className="text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4">About Us</h2>
             <p className="text-gray-600 mb-4">
-              Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
             </p>
             <p className="text-gray-600 mb-4">
               Every journey is a new experience that brings excitement and wonder. Let us guide you on this incredible adventure, where memories are made.
