@@ -29,12 +29,12 @@ export default function App() {
                 opacity: 100,
                 x: 0
               }}
-              className=" judul text-[4rem] mb-3 md:mb-0 font-bebas_neue md:text-[10rem]"
+              className=" gradient-text judul text-[4rem] mb-3 md:mb-0 font-bebas_neue font-semibold md:text-[10rem]"
               
             >
               Djember Fest
             </motion.p>
-            <p className="text-[14px] w-[95%] md:w-[35rem] pl-2 md:text-[20px] relative bottom-8">
+            <p className="text-[14px] w-[95%] md:w-[40rem] pl-2 md:text-[20px] font-medium relative bottom-8">
             Jember memikat dengan panorama alam dan budaya yang kaya. Nikmati festival seru, jelajahi wisata alam, dan cicipi kuliner khas. Jember, pengalaman unik yang siap mengubah perspektif Anda!
             </p>
           </div>
