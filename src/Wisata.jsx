@@ -22,12 +22,12 @@ const AboutUs = () => {
                 <img 
                   src="image/gallery/papuma1.jpg" 
                   alt="image2" 
-                  className="rounded-lg shadow-lg object-cover h-48 w-full"
+                  className="rounded-lg shadow-lg object-cover h-48 w-96"
                 />
               </div>
               <div className="relative top-10">
                 <img 
-                  src="image/gallery/papuma4.jpg" 
+                  src="image/gallery/gambir.jpg" 
                   alt="image3" 
                   className="rounded-lg shadow-lg object-cover h-80 w-80"
                 />
@@ -37,7 +37,7 @@ const AboutUs = () => {
 
           {/* Text Section */}
           <div className="md:w-1/2 mt-8 md:mt-0 md:ml-16">
-            <h2 className="text-9xl font-bebas_neue  font-bold text-gray-900 mb-4">About Us</h2>
+            <h2 className="text-9xl font-bebas_neue  font-bold text-neutral-800 mb-4">About Us</h2>
             <p className="text-gray-600 mb-4">
               Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
             </p>
