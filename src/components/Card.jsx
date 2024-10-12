@@ -8,7 +8,7 @@ export default function Card({img, judul, deskripsi}) {
                 <p className="text-sm md:text-2xl font-bold mb-2 p-2 text-center">{ judul }</p>
                 <img src={ img } alt="logo" className="px-4"/>
                 <p className="text-xs md:text-base h-1/4 overflow-hidden mb-2 p-2 self-center text-center">{ deskripsi }</p>
-                <button className="border-2 border-[rgba(0,0,0)] w-36 mb-1 md:mb-5 rounded-sm text-xs md:text-sm self-center p-1"><a href="">Baca Selengkapnya</a></button>
+                <button className="border-2 rounded-md border-[rgba(0,0,0)] w-36 mb-1 md:mb-5 text-xs md:text-sm self-center p-2"><a href="">Baca Selengkapnya</a></button>
             </div>
         </>
     )

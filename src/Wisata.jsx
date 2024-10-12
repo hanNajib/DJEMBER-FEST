@@ -5,7 +5,7 @@ const AboutUs = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, {once: true})
   return (
-    <section ref={ref} className="py-16 bg-gray-100" id="destination">
+    <section ref={ref} className="pt-28 pb-20 bg-gray-100 px-20" id="destination">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Images */}
