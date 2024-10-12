@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import { DestinasiKanan, DestinasiKiri } from "./components/Destinasi";
 export default function Destination() {
     return(
@@ -11,6 +10,13 @@ export default function Destination() {
         }}
       ></div> */}
         <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
+        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
+        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
+        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
         </>
     )
 }

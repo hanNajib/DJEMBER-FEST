@@ -1,7 +1,11 @@
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 const AboutUs = () => {
+  const ref = useRef(null)
+  const isInView = useInView(ref, {once: true})
   return (
-    <section className="py-16 bg-gray-100">
+    <section ref={ref} className="py-16 bg-gray-100" id="destination">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Images */}
@@ -11,7 +15,11 @@ const AboutUs = () => {
               <img 
                 src="image/gallery/antrokan.jpg" 
                 alt="image1" 
-                className="rounded-lg shadow-lg object-cover h-96 w-full"
+                className="rounded-lg shadow-lg object-cover h-96 w-full duration-700 delay-100"
+                style={{
+                  transform: isInView ? 'none' : 'translateX(-200px)',
+                  opacity: isInView ? 100 : 0
+                }}
               />
             </div>
             
@@ -21,14 +29,22 @@ const AboutUs = () => {
                 <img 
                   src="image/gallery/papuma1.jpg" 
                   alt="image2" 
-                  className="rounded-lg shadow-lg object-cover h-48 w-96"
+                  className="rounded-lg shadow-lg object-cover h-48 w-96 duration-700 delay-100"
+                  style={{
+                    transform: isInView ? 'none' : 'translateX(200px)',
+                    opacity: isInView ? 100 : 0
+                  }}
                 />
               </div>
               <div className="relative top-10">
                 <img 
                   src="image/gallery/gambir.jpg" 
                   alt="image3" 
-                  className="rounded-lg shadow-lg object-cover h-80 w-80"
+                  className="rounded-lg shadow-lg object-cover h-80 w-80 duration-700 delay-100"
+                  style={{
+                    transform: isInView ? 'none' : 'translateY(200px)',
+                    opacity: isInView ? 100 : 0
+                  }}
                 />
               </div>
             </div>

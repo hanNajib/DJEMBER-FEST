@@ -1,7 +1,16 @@
+import { useState } from "react";
+import ReactCardFlip from "react-card-flip";
+
 export default function Kuliner() {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <div className="w-full h-auto bg-slate-100 pt-36">
-      {/* <div className="w-full h-40 bg-slate-300 absolute rotate-[2deg] scale-110"></div> */}
+    <div className="w-full h-auto bg-slate-100 pt-36 overflow-hidden" id="umkm">
+      <div className="w-full h-40 bg-slate-300 absolute rotate-[2deg] scale-110"></div>
       <div className="absolute z-10 scale-125 opacity-20 mt-40">
         <img src="../public/image/makan revisi.svg" alt="" />
       </div>
@@ -10,30 +19,50 @@ export default function Kuliner() {
           <img
             src="/image/model.png"
             alt=""
-            className="w-full md:w-1/2 object-cover"
+            className="w-full md:w-[40%] object-cover"
           />
-          <div className="w-full md:w-[50rem] h-full bg-slate-50 p-6 md:p-16 mt-10 md:mt-36 rounded-3xl shadow-lg relative">
-            <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
-              Tahukah Kamu?
-            </h1>
-            <p className="text-[16px] md:text-[20px]">
-              Jember menyimpan sejuta kelezatan kuliner yang siap memanjakan
-              lidahmu, dengan hidangan unik kaya cita rasa lokal dan rempah
-              khas. Setiap sudutnya menyimpan kejutan kuliner, terutama dari
-              UMKM yang inovatif. Dari camilan tradisional hingga hidangan
-              modern, setiap sajian mendukung usaha lokal. Hmm, pasti penasaran
-              kan? Yuk, jelajahi kuliner Jember dan temukan kenikmatan yang tak
-              terlupakan!
-            </p>
-            <div className="mt-9 hover:scale-95 transition-all">
-              <a
-                href=""
-                className="text-[16px] md:text-[20px] text-neutral-800 border-[3px] border-neutral-800 p-3 font-semibold rounded-xl"
-              >
-                Jelajahi Kuliner UMKM
-              </a>
+
+          {/* ReactCardFlip starts here */}
+          <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
+            {/* Front Side */}
+            <div className="w-full -translate-y-40 md:translate-y-20 md:w-[50rem] h-[70vh] bg-slate-50 p-6 md:p-16 md:mt-0 rounded-3xl shadow-lg relative">
+              <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
+                Tahukah Kamu?
+              </h1>
+              <p className="text-[16px] md:text-[20px]">
+                Jember menyimpan sejuta kelezatan kuliner yang siap memanjakan
+                lidahmu, dengan hidangan unik kaya cita rasa lokal dan rempah
+                khas. Setiap sudutnya menyimpan kejutan kuliner, terutama dari
+                UMKM yang inovatif. Dari camilan tradisional hingga hidangan
+                modern, setiap sajian mendukung usaha lokal. Hmm, pasti
+                penasaran kan? Yuk, jelajahi kuliner Jember dan temukan
+                kenikmatan yang tak terlupakan!
+              </p>
+              <div className="mt-9 hover:scale-95 transition-all">
+                <span
+                  className="text-[16px] md:text-[20px] text-neutral-800 border-[3px] border-neutral-800 p-3 font-semibold rounded-xl cursor-pointer"
+                  onClick={handleFlip}
+                >
+                  Jelajahi Kuliner UMKM
+                </span>
+              </div>
             </div>
-          </div>
+
+            <div className="w-full -translate-y-40 md:translate-y-20 md:w-[50rem] h-[70vh] bg-slate-50 p-6 md:p-16 md:mt-0 rounded-3xl shadow-lg relative">
+              <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
+                Makanan
+              </h1>
+              
+              <div className="mt-9 hover:scale-95 transition-all">
+                <span
+                  className="text-[16px] md:text-[20px] text-neutral-800 border-[3px] border-neutral-800 p-3 font-semibold rounded-xl cursor-pointer"
+                  onClick={handleFlip}
+                >
+                  Kembali
+                </span>
+              </div>
+            </div>
+          </ReactCardFlip>
         </div>
       </div>
     </div>

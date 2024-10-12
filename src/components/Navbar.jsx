@@ -63,12 +63,12 @@ export default function Navbar() {
         >
           <img src="" alt="logo" className="hidden md:block" />
           <div className="flex flex-col md:flex-row gap-5 pb-5 md:pb-0 z-10">
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Home</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Article</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">About</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Culture</a>
-           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Destination</a>
-           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">UMKM</a>
+          <a href="#home" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Home</a>
+          <a href="#article" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Article</a>
+          <a href="#about" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">About</a>
+          <a href="#culture" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Culture</a>
+           <a href="#destination" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Destination</a>
+           <a href="#umkm" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">UMKM</a>
           {/* <div className="w-full absolute -bottom-4 rotate-3 h-10 left-0 bg-slate-600 z-0 border-b-2 border-b-black"></div> */}
           </div>
         </div>
