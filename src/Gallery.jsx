@@ -17,7 +17,7 @@ function Gallery() {
         <div
           key={index}
           className={`
-            ${IndexSekarang === index ? 'w-full h-full absolute bottom-0 right-0 duration-0' : `w-32 h-32 absolute bottom-10 z-10 duration-1000`}
+            ${IndexSekarang === index ? 'w-full h-full absolute bottom-0 right-0 z-10 duration-1000' : `w-32 h-32 absolute bottom-10 z-20 duration-700 delay-1000`}
             transition-all ease-in-out
           `}  
           style={{

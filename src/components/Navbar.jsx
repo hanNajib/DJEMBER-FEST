@@ -18,8 +18,8 @@ export default function Navbar() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 flex"
-              fill="none"
+              className="h-8 w-8 flex text-black"
+              fill="black"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
@@ -63,11 +63,12 @@ export default function Navbar() {
         >
           <img src="" alt="logo" className="hidden md:block" />
           <div className="flex flex-col md:flex-row gap-5 pb-5 md:pb-0 z-10">
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95">Home</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95">Rofif</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95">Royhan</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95">gtahan</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95">gabriel</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Home</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Rofif</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Royhan</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">gtahan</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">gabriel</a>
+          {/* <div className="w-full absolute -bottom-4 rotate-3 h-10 left-0 bg-slate-600 z-0 border-b-2 border-b-black"></div> */}
           </div>
         </div>
       </nav>
