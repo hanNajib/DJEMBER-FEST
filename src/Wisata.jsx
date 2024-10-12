@@ -6,11 +6,11 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Images */}
-          <div className=" scale-95  md:w-1/2 flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
+          <div className="scale-95 md:w-1/2 flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
             {/* Portrait Image */}
             <div className="w-full md:w-1/3">
               <img 
-                src="image/gallery/papuma3.jpg" 
+                src="image/gallery/antrokan.jpg" 
                 alt="image1" 
                 className="rounded-lg shadow-lg object-cover h-96 w-full"
               />
@@ -18,14 +18,14 @@ const AboutUs = () => {
             
             {/* Landscape Image */}
             <div className="w-full md:w-2/3 flex flex-col space-y-4">
-              <div>
+              <div className="relative top-10">
                 <img 
                   src="image/gallery/papuma1.jpg" 
                   alt="image2" 
                   className="rounded-lg shadow-lg object-cover h-48 w-full"
                 />
               </div>
-              <div>
+              <div className="relative top-10">
                 <img 
                   src="image/gallery/papuma4.jpg" 
                   alt="image3" 
@@ -37,7 +37,7 @@ const AboutUs = () => {
 
           {/* Text Section */}
           <div className="md:w-1/2 mt-8 md:mt-0 md:ml-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">About Us</h2>
+            <h2 className="text-9xl font-bebas_neue  font-bold text-gray-900 mb-4">About Us</h2>
             <p className="text-gray-600 mb-4">
               Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
             </p>
