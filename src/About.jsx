@@ -6,7 +6,7 @@ export default function About() {
                 <p className=" text-slate-100 text-xs md:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veritatis molestiae reprehenderit libero blanditiis molestias eveniet excepturi amet tenetur distinctio sunt vero exercitationem quo eaque, dignissimos commodi nobis laboriosam sapiente possimus minima? Sequi, itaque atque? Impedit placeat accusantium sequi voluptates suscipit sed quae mollitia cumque dicta hic aliquam, incidunt ipsa.</p>
             </div>
             <div className="relative">
-                <img src="https://i.pinimg.com/enabled/564x/f5/c3/05/f5c30525b780e0524b796c93d6aded8f.jpg" alt="" className="px-5 pt-5 md:pt-0 md:px-0"/>
+                <img src="../public/image/panorama.webp" alt="" className="px-5 pt-5 rounded-xl shadow-lg md:pt-0 md:px-0"/>
             </div>
         </div>
     )

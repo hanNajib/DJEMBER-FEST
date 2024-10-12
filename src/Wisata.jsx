@@ -1,7 +1,7 @@
 
 const AboutUs = () => {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="pt-28 pb-20 bg-gray-100 px-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Images */}

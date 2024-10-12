@@ -1,7 +1,7 @@
 export default function Kuliner() {
   return (
     <div className="w-full h-auto bg-slate-100 pt-36">
-      {/* <div className="w-full h-40 bg-slate-300 absolute rotate-[2deg] scale-110"></div> */}
+      <div className="w-full h-40 bg-slate-300 absolute rotate-[2deg] scale-110"></div>
       <div className="absolute z-10 scale-125 opacity-20 mt-40">
         <img src="../public/image/makan revisi.svg" alt="" />
       </div>
