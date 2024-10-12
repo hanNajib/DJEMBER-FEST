@@ -4,10 +4,10 @@ export default function Article() {
   return (
     <div className="bg-slate-200 pb-10 relative">
           <div
-            className="absolute top-20 left-2 w-[500px] h-[500px] bg-[#4b30b580] rounded-full mix-blend-multiply filter blur-[150px] opacity-70 animate-blob">
+            className="absolute top-20 left-2 w-[500px] h-[500px] bg-[#4f61bb80] rounded-full mix-blend-multiply filter blur-[150px] opacity-70 animate-blob">
           </div>
           <div
-            className="absolute top-20 right-32 w-[500px] h-[500px] bg-[#d057a880] rounded-full mix-blend-multiply filter blur-[150px] opacity-70 animate-blob animation-delay-2000">
+            className="absolute top-20 right-32 w-[500px] h-[500px] bg-[#6876a080] rounded-full mix-blend-multiply filter blur-[150px] opacity-70 animate-blob animation-delay-2000">
           </div>
           <div
             className="hidden xl:block absolute bottom-10 left-32 w-[500px] h-[500px] bg-[#4b7bba80] rounded-full mix-blend-multiply filter blur-[150px] opacity-70 animate-blob animation-delay-4000">

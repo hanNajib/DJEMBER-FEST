@@ -11,13 +11,13 @@ export default function App() {
       >
         
         <div
-        className="absolute w-[100vw] h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-60"
+        className="absolute w-[100vw] h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-70"
         style={{
           backgroundImage: `linear-gradient(to right, #f5f3ff, #e2e8f0), url('/image/revisi lagiiii (1).jpg')`,
           backgroundBlendMode: 'multiply', // This blends the image and gradient smoothly
         }}
       ></div>
-        <div className="absolute w-[100vw] h-[105vh] bg-gradient-to-br from-slate-800 to-transparen "></div>
+        <div className="absolute w-[100vw] h-[105vh] bg-gradient-to-br from-slate-900 to-transparent bg-fixed "></div>
         <div className="w-[100%] flex pt-48 relative text-slate-50  ">
           <div className="text flex flex-col pl-5 md:pl-28 ">
             <motion.p
@@ -34,7 +34,7 @@ export default function App() {
             >
               Djember Fest
             </motion.p>
-            <p className="text-[14px] w-[95%] md:w-[35rem] pl-2 md:text-[20px] relative bottom-8 font-semibold">
+            <p className="text-[14px] w-[95%] md:w-[35rem] pl-2 md:text-[20px] relative bottom-8">
             Jember memikat dengan panorama alam dan budaya yang kaya. Nikmati festival seru, jelajahi wisata alam, dan cicipi kuliner khas. Jember, pengalaman unik yang siap mengubah perspektif Anda!
             </p>
           </div>
