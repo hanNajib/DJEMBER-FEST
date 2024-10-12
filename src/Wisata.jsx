@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 
 function Wisata() {
   const topTextRef = useRef(null);
-  const topImageRef = useRef(null);
+  const topImageRef = useRef(null); 
+  
   const bottomTextRef = useRef(null);
   const bottomImageRef = useRef(null);
 
