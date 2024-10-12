@@ -59,15 +59,16 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`${NavButton ? "-top-80 md:opacity-100" : "top-[55px] opacity-100 translate-y-0 scale-100 z-0" } bg-slate-200 absolute md:static px-20 w-screen justify-center md:justify-between transition-all duration-500 md:flex md:flex-row text-neutral-800 font-medium uppercase text-base flex items-center gap-4 md:gap-8 md:w-screen`}
+          className={`${NavButton ? "-top-80 md:opacity-100" : "top-[55px] opacity-100 translate-y-0 scale-100 z-0" } bg-slate-200 absolute md:static px-20 w-screen justify-center md:justify-between text-[17px] transition-all duration-500 md:flex md:flex-row text-neutral-800 font-semibold uppercase flex items-center gap-4 md:gap-8 md:w-screen`}
         >
           <img src="" alt="logo" className="hidden md:block" />
           <div className="flex flex-col md:flex-row gap-5 pb-5 md:pb-0 z-10">
           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Home</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Rofif</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Royhan</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">gtahan</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">gabriel</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Article</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">About</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Culture</a>
+           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Destination</a>
+           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">UMKM</a>
           {/* <div className="w-full absolute -bottom-4 rotate-3 h-10 left-0 bg-slate-600 z-0 border-b-2 border-b-black"></div> */}
           </div>
         </div>
@@ -75,3 +76,5 @@ export default function Navbar() {
     </>
   );
 }
+
+
