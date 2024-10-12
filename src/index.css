@@ -19,8 +19,9 @@
   background-color: #0d0d0d;
 }
 
-        .gradient-text {
-            background: linear-gradient(to right, #ffffff, #c1c7d6); /* Ganti warna sesuai kebutuhan */
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+.gradient-text {
+  background: linear-gradient(to right, #ffffff, #c1c7d6);
+  /* Ganti warna sesuai kebutuhan */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
