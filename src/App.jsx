@@ -14,7 +14,7 @@ export default function App() {
         className="absolute w-[100vw] h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-70"
         style={{
           backgroundImage: `linear-gradient(to right, #f5f3ff, #e2e8f0), url('/image/revisi lagiiii (1).jpg')`,
-          backgroundBlendMode: 'multiply', // This blends the image and gradient smoothly
+          backgroundBlendMode: 'multiply', 
         }}
       ></div>
         <div className="absolute w-[100vw] h-[105vh] bg-gradient-to-br from-slate-900 to-transparent bg-fixed "></div>
