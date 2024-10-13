@@ -2,7 +2,7 @@ import Card from "./components/Card";
 
 export default function Article() {
   return (
-    <div className="bg-slate-200 pb-10 relative" id="article">
+    <div className="bg-slate-200 pb-10 relative overflow-x-clip" id="article">
           <div
             className="absolute top-20 left-2 w-[500px] h-[500px] bg-[#4f61bb80] rounded-full mix-blend-multiply filter blur-[150px] opacity-70 animate-blob">
           </div>

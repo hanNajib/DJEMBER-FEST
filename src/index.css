@@ -21,7 +21,10 @@
 
 .gradient-text {
   background: linear-gradient(to right, #ffffff, #c1c7d6);
-  /* Ganti warna sesuai kebutuhan */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+img, div {
+  max-width: 100vw;
 }

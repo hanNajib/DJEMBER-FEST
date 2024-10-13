@@ -5,9 +5,9 @@ const AboutUs = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, {once: true})
   return (
-    <section ref={ref} className="pt-28 pb-20 bg-gray-100 px-20" id="destination">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+    <section ref={ref} className="pt-28 pb-20 bg-gray-100 px-20 w-full" id="destination">
+      <div className="container mx-auto px-4 w-full">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full">
           {/* Images */}
           <div className="scale-95 md:w-1/2 flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
             {/* Portrait Image */}
@@ -25,7 +25,7 @@ const AboutUs = () => {
             
             {/* Landscape Image */}
             <div className="w-full md:w-2/3 flex flex-col space-y-4">
-              <div className="relative top-10">
+              <div className="relative top-10 ">
                 <img 
                   src="image/gallery/papuma1.jpg" 
                   alt="image2" 

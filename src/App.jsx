@@ -1,9 +1,8 @@
-import { motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className="bg-neutral-800 over" id="home">
+    <div className="bg-neutral-800 over overflow-x-hidden" id="home">
       <Navbar></Navbar>
       <section
         className="home w-[100vw]] h-[100vh] bg-gradient-to-tl from-slate-200 to-violet-100 opacity-70" 
@@ -11,29 +10,21 @@ export default function App() {
       >
         
         <div
-        className="absolute w-[100vw] h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-70"
+        className="absolute w-full h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-70"
         style={{
           backgroundImage: `linear-gradient(to right, #f5f3ff, #e2e8f0), url('/image/revisi lagiiii (1).jpg')`,
           backgroundBlendMode: 'multiply', 
         }}
       ></div>
-        <div className="absolute w-[100vw] h-[105vh] bg-gradient-to-br from-slate-900 to-transparent bg-fixed "></div>
+        <div className="absolute w-full h-[105vh] bg-gradient-to-br from-slate-900 to-transparent bg-fixed "></div>
         <div className="w-[100%] flex pt-48 relative text-slate-50  ">
           <div className="text flex flex-col pl-5 md:pl-28 ">
-            <motion.p
-              initial={{
-                opacity: 0,
-                x: -20
-              }}
-              whileInView={{
-                opacity: 100,
-                x: 0
-              }}
+            <p
               className=" gradient-text judul text-[4rem] mb-3 md:mb-0 font-bebas_neue font-semibold md:text-[10rem]"
               
             >
               Djember Fest
-            </motion.p>
+            </p>
             <p className="text-[14px] w-[95%] md:w-[40rem] pl-2 md:text-[20px] font-medium relative bottom-8">
             Jember memikat dengan panorama alam dan budaya yang kaya. Nikmati festival seru, jelajahi wisata alam, dan cicipi kuliner khas. Jember, pengalaman unik yang siap mengubah perspektif Anda!
             </p>

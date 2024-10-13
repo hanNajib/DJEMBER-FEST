@@ -12,7 +12,7 @@ function Gallery() {
   const [IndexSekarang, setIndexSekarang] = useState(1);
 
   return (
-    <div className='w-screen h-screen relative overflow-x-hidden' id='culture'>
+    <div className='w-full h-screen relative overflow-x-hidden' id='culture'>
       {images.map((image, index) => (
         <div
           key={index}

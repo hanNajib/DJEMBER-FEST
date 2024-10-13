@@ -9,10 +9,11 @@ export default function Kuliner() {
   };
 
   return (
-    <div className="w-full h-auto bg-slate-100 pt-36 overflow-hidden" id="umkm">
+    <div className=" overflow-x-clip">
+    <div className="w-screen h-auto bg-slate-100 pt-36 relative overflow-x-hidden" id="umkm">
       <div className="w-full h-40 bg-slate-300 absolute rotate-[2deg] scale-110"></div>
       <div className="absolute z-10 scale-125 opacity-20 mt-40">
-        <img src="../public/image/makan revisi.svg" alt="" />
+        <img src="../public/image/makanrevisi.svg" alt="" />
       </div>
       <div className="relative h-auto w-full bg-gradient-to-b from-slate-300 to-slate-400 mt-20">
         <div className="flex flex-col md:flex-row px-4 md:px-32 gap-10 relative z-10">
@@ -65,6 +66,7 @@ export default function Kuliner() {
           </ReactCardFlip>
         </div>
       </div>
+    </div>
     </div>
   );
 }
