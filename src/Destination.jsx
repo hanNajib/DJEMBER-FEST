@@ -10,12 +10,12 @@ export default function Destination() {
         }}
       ></div> */}
         <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/love.webp"></DestinasiKiri>
+        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/gambir.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/Barung Island.webp"></DestinasiKiri>
+        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/antrokan.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/jemberminizoo.webp"></DestinasiKiri>
+        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/payangan.webp"></DestinasiKanan>
         <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
         </>
     )
