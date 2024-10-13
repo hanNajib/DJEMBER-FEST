@@ -1,9 +1,7 @@
-import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <div className="bg-neutral-800 over overflow-x-hidden" id="home">
-      <Navbar></Navbar>
       <section
         className="home w-[100vw]] h-[100vh] bg-gradient-to-tl from-slate-200 to-violet-100 opacity-70" 
         id=""

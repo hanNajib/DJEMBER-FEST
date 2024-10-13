@@ -23,10 +23,9 @@ export default function Kuliner() {
             className="w-full md:w-[40%] object-cover"
           />
 
-          {/* ReactCardFlip starts here */}
+
           <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-            {/* Front Side */}
-            <div className="w-full -translate-y-40 md:translate-y-20 md:w-[50rem] h-[70vh] bg-slate-50 p-6 md:p-16 md:mt-0 rounded-3xl shadow-lg relative">
+            <div className="w-full -translate-y-40 md:translate-y-20 md:w-[50rem] h-[70vh] bg-slate-50 p-6 md:p-16 md:mt-0 rounded-3xl shadow-lg relative scale-95">
               <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
                 Tahukah Kamu?
               </h1>
@@ -49,7 +48,7 @@ export default function Kuliner() {
               </div>
             </div>
 
-            <div className="w-full -translate-y-40 md:translate-y-20 md:w-[50rem] h-[70vh] bg-slate-50 p-6 md:p-16 md:mt-0 rounded-3xl shadow-lg relative">
+            <div className="w-full -translate-y-40 md:translate-y-20 md:w-[50rem] h-[70vh] bg-slate-50 p-6 md:p-16 md:mt-0 rounded-3xl shadow-lg relative scale-95">
               <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
                 Makanan
               </h1>

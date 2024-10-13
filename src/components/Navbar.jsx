@@ -8,8 +8,7 @@ export default function Navbar() {
     <div className="flex">
       
     </div>
-      <nav className="z-50 w-full md:h-[80px] md:bg-slate-200 shadow-xl md:shadow-lg flex flex-col justify-between items-center gap-0 md:gap-8 font-bold text-[23px] fixed top-0 text-neutral-800 md:py-2 md:flex-row md:text-neutral-800">
-      <div className="h-full w-[15%] bg-gradient-to-r from-slate-600 to-slate-500 shadow-xl  absolute skew-x-[-15deg] -left-5"></div>
+      <nav className="z-50 w-screen md:h-[80px] md:bg-slate-200 shadow-xl md:shadow-lg flex flex-col justify-between items-center gap-0 md:gap-8 font-bold text-[23px] fixed top-0 text-neutral-800 md:py-2 md:flex-row md:text-neutral-800">
         <div className="w-full flex justify-between bg-slate-200 items-center py-3 md:hidden z-10">
         <img src="" alt="logo" className="block md:hidden"/>
           <button
@@ -64,7 +63,7 @@ export default function Navbar() {
         >
           
           <img src="" alt="logo" className="hidden md:block relative" />
-          <div className="flex flex-col md:flex-row gap-5 pb-5 md:pb-0 z-10">
+          <div className="flex flex-col md:flex-row gap-5 pb-5 md:pb-0 z-10 text-center">
           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Home</a>
           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Article</a>
           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">About</a>
