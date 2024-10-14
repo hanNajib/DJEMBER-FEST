@@ -12,7 +12,7 @@ export default function Destination() {
         <div
         className="absolute w-full h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-70"
         style={{
-          backgroundImage: `url('image/gallery/papuma1.jpg')`,
+          backgroundImage: `url('image/gallery/bg-destinasi.jpg')`,
           backgroundBlendMode: 'multiply', 
         }}
       ></div>
@@ -33,14 +33,14 @@ export default function Destination() {
     </div>
   
 
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/love.webp"></DestinasiKiri>
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/gambir.jpg"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/Barung Island.webp"></DestinasiKiri>
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/antrokan.jpg"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/jemberminizoo.webp"></DestinasiKiri>
-        <DestinasiKanan judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/payangan.webp"></DestinasiKanan>
-        <DestinasiKiri judul="Destinasi Jember" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
+        <DestinasiKanan judul="Pantai Papuma" lokasi="Wuluhan, Jember, Jawa Timur. " deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKanan>
+        <DestinasiKiri judul="Teluk Love" lokasi="Ambulu, Jember, Jawa Timur" deskripsi="lorem Ipsum" image="/image/gallery/love.webp"></DestinasiKiri>
+        <DestinasiKanan judul="Gunung Gambir" lokasi="Sumberbaru, Jember, Jawa Timur" deskripsi="lorem Ipsum" image="/image/gallery/gunung-gambir.webp"></DestinasiKanan>
+        <DestinasiKiri judul="Nusa Barung" lokasi="Puger, Jember, Jawa Timur" deskripsi="lorem Ipsum" image="/image/gallery/Barung Island.webp"></DestinasiKiri>
+        <DestinasiKanan judul="Air Terjun Antrokan" lokasi="Tanggul, Jember, Jawa Timur " deskripsi="lorem Ipsum" image="/image/gallery/air-antrokan.jpeg"></DestinasiKanan>
+        <DestinasiKiri judul="Jember Mini Zoo" lokasi="Kaliwates, Jember, Jawa Timur" deskripsi="lorem Ipsum" image="/image/gallery/jemberminizoo.webp"></DestinasiKiri>
+        <DestinasiKanan judul="Pantai Payangan" lokasi="Ambulu, Jember, Jawa Timur " deskripsi="lorem Ipsum" image="/image/gallery/payangan.webp"></DestinasiKanan>
+        <DestinasiKiri judul="" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
         </>
     )
 }
