@@ -7,7 +7,7 @@ export function DestinasiKanan({judul, lokasi, deskripsi, image}) {
     const isInView = useInView(refAtas)
     return(
       <>
-        <div ref={refAtas} className="bg-gray-100 py-12 flex flex-col md:flex-row items-center">
+        <div ref={refAtas} className="bg-gray-100 overflow-x-hidden py-12 flex flex-col md:flex-row items-center">
         <div className="container mx-auto flex flex-col md:flex-row items-start">
           <div className="w-full md:w-1/2 text-left relative">
             <h2
@@ -40,7 +40,7 @@ export function DestinasiKiri({judul, lokasi, deskripsi, image}) {
   const isInView = useInView(refAtas)
   return(
     <>
-       <div ref={refAtas} className="container mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-start">
+       <div ref={refAtas} className="container overflow-x-hidden mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-start">
         <div className="w-full md:w-1/2">
           <img src={image} alt="Pantai Papuma" className="ml-auto object-cover w-full h-auto" style={{ transform: isInView ? "none" : "translateX(-200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}/>
         </div>
