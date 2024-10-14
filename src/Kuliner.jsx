@@ -9,7 +9,7 @@ export default function Kuliner() {
   };
 
   return (
-    <div className=" overflow-x-clip">
+    <div className="overflow-x-hidden">
     <div className="w-screen h-auto bg-slate-100 pt-36 relative overflow-x-hidden" id="umkm">
       <div className="w-full h-40 bg-slate-300 absolute rotate-[2deg] scale-110"></div>
       <div className="absolute z-10 scale-125 opacity-20 mt-40">
