@@ -40,7 +40,6 @@ export default function Destination() {
         <DestinasiKanan judul="Air Terjun Antrokan" lokasi="Tanggul, Jember, Jawa Timur " deskripsi="lorem Ipsum" image="/image/gallery/air-antrokan.jpeg"></DestinasiKanan>
         <DestinasiKiri judul="Jember Mini Zoo" lokasi="Kaliwates, Jember, Jawa Timur" deskripsi="lorem Ipsum" image="/image/gallery/jemberminizoo.webp"></DestinasiKiri>
         <DestinasiKanan judul="Pantai Payangan" lokasi="Ambulu, Jember, Jawa Timur " deskripsi="lorem Ipsum" image="/image/gallery/payangan.webp"></DestinasiKanan>
-        <DestinasiKiri judul="" lokasi="Pantai Papuma" deskripsi="lorem Ipsum" image="/image/gallery/papuma1.jpg"></DestinasiKiri>
         </>
     )
 }
