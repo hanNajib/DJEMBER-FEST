@@ -1,17 +1,16 @@
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import Fillbutton from './components/Button'
 
 const AboutUs = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, {once: false})
   return (
-    <section ref={ref} className="pt-28 pb-20 bg-gray-100 px-20 w-full overflow-x-hidden" id="destination">
+    <section ref={ref} className="pt-28 pb-20 bg-gray-100 px-20 w-full overflow-hidden" id="destination">
       
       <div className="container mx-auto px-4 w-full">
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
-          {/* Images */}
           <div className="scale-95 md:w-1/2 flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
-            {/* Portrait Image */}
             <div className="w-full md:w-1/3">
               <img 
                 src="image/gallery/antrokan.jpg" 
@@ -24,7 +23,6 @@ const AboutUs = () => {
               />
             </div>
             
-            {/* Landscape Image */}
             <div className="w-full md:w-2/3 flex flex-col space-y-4">
               <div className="relative top-10 ">
                 <img 
@@ -73,10 +71,7 @@ const AboutUs = () => {
             >
               Every journey is a new experience that brings excitement and wonder. Let us guide you on this incredible adventure, where memories are made.
             </p>
-          <button className="relative mt-4 px-6 py-3 bg-transparent text-white font-semibold rounded-lg overflow-hidden group border-2 border-neutral-800">
-            <span className="absolute inset-0 bg-yellow-500 -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></span>
-            <span className="relative z-10 text-black">View Details</span>
-          </button>
+          <Fillbutton>View More</Fillbutton>
 
           </div>
         </div>
