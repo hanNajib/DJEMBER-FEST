@@ -27,7 +27,11 @@ export default function Destination() {
                 </section>  
             </div>
   
-            <div className="relative z-10">
+            <div className="flex justify-center p-20">
+                <input type="search" placeholder="Search Your Destination" className="w-[50rem] rounded-3xl h-[4rem] py-2 px-5 text-neutral-800 shadow-lg outline-none bg bg-neutral-50 border-2 border-neutral-600"/>
+            </div>
+
+            <div className="relative z-10 px-10">
                 <DestinasiKanan
                     judul="Pantai Papuma"
                     lokasi="Wuluhan, Jember, Jawa Timur."

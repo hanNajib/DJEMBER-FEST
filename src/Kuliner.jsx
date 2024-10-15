@@ -20,12 +20,12 @@ export default function Kuliner() {
             <img
               src="/image/model.png"
               alt=""
-              className="w-full md:w-[40%] object-cover"
+              className="w-full md:"
             />
 
-            <div className="flex justify-center items-center w-full h-full md:w-[50%]">
+            <div className="flex justify-center items-center w-full h-full md:w-[40rem]">
               <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-                <div className="w-full h-full bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
+                <div className="w-[40rem] h-[45rem] top-24 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
                   <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
                     Tahukah Kamu?
                   </h1>
@@ -48,7 +48,7 @@ export default function Kuliner() {
                   </div>
                 </div>
 
-                <div className="w-full h-[60vh] bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
+                <div className="w-[40rem] h-[45rem] top-24 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
                   <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
                     Makanan Bergizi Alhamdulillah ya Allah
                   </h1>
