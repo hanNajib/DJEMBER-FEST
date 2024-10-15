@@ -23,9 +23,9 @@ export default function Kuliner() {
               className="w-full md:w-[40%] object-cover"
             />
 
-            <div className="flex justify-center items-center w-full md:w-[50%]">
+            <div className="flex justify-center items-center w-full h-full md:w-[50%]">
               <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-                <div className="w-full h-[60vh] bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
+                <div className="w-full h-full bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
                   <h1 className="text-[2.5rem] md:text-[5rem] font-bold text-neutral-800 font-sans">
                     Tahukah Kamu?
                   </h1>
