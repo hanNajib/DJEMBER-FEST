@@ -26,7 +26,7 @@ export function DestinasiKanan({judul, lokasi, deskripsi, image}) {
           </div>
 
           <div className="w-full md:w-1/2">
-            <img src={image} alt="Pantai Papuma" className="ml-auto object-cover w-full h-auto" style={{ transform: isInView ? "none" : "translateX(200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}/>
+            <img src={image} alt="Pantai Papuma" className="ml-auto rounded-3xl object-cover w-full h-auto" style={{ transform: isInView ? "none" : "translateX(200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}/>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ export function DestinasiKiri({judul, lokasi, deskripsi, image}) {
     <>
        <div ref={refAtas} className="container overflow-x-hidden mx-auto flex flex-col md:flex-row gap-10 md:gap-20 items-start">
         <div className="w-full md:w-1/2">
-          <img src={image} alt="Pantai Papuma" className="ml-auto object-cover w-full h-auto" style={{ transform: isInView ? "none" : "translateX(-200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}/>
+          <img src={image} alt="Pantai Papuma" className="ml-auto rounded-3xl  object-cover w-full h-auto" style={{ transform: isInView ? "none" : "translateX(-200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}/>
         </div>
 
         <div className="w-full md:w-1/2 text-left relative">
