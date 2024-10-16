@@ -39,7 +39,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -55,7 +55,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -71,7 +71,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -87,7 +87,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -101,7 +101,7 @@ const SpecialDeals = () => {
             <h3 className="text-xl font-semibold text-center mt-4">Prol Tape</h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -117,7 +117,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -133,7 +133,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -147,7 +147,7 @@ const SpecialDeals = () => {
             <h3 className="text-xl font-semibold text-center mt-4">Pia Tape</h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -163,7 +163,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -179,7 +179,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -195,7 +195,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
@@ -211,7 +211,7 @@ const SpecialDeals = () => {
             </h3>
             <div className="flex justify-center items-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                Order Now
+                Kunjungi UMKM
               </button>
             </div>
           </div>
