@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import { useNavigate } from "react-router-dom"; // Assuming you're using React Router
+import { useNavigate } from "react-router-dom";
+import Fillbutton from "./components/Button";
 
 export default function Kuliner() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -76,10 +77,9 @@ export default function Kuliner() {
                       Kembali
                     </span>
                     <span
-                      className="text-base md:text-lg text-white bg-neutral-800 p-3 font-semibold rounded-xl cursor-pointer absolute bottom-10 right-10"
-                      onClick={handleNavigate}
+                      className="absolute bottom-10 right-10"
                     >
-                      Halaman Lain
+                      <Fillbutton href="/makanan">View More</Fillbutton>
                     </span>
                   </div>
                 </div>

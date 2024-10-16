@@ -6,11 +6,11 @@ const AboutUs = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, {once: false})
   return (
-    <section ref={ref} className="pt-28 pb-20 bg-gray-100 md:px-20 w-full overflow-hidden" id="destination">
+    <section ref={ref} className="pt-28 pb-20 bg-gray-100 md:px-10 lg:px-20 w-full overflow-hidden" id="destination">
       
       <div className="container mx-auto px-4 w-full">
         <div className="flex flex-col lg:flex-row justify-between items-center w-full">
-          <div className="pb-10 pr-8 md:scale-95 md:w-1/2 flex flex-row md:space-y-0 md:space-x-4 md:flex-row">
+          <div className="pb-10 pr-8 md:pr-0 md:pl-10 md:pb-20 md:scale-95 md:w-full lg:w-1/2 flex flex-row md:space-y-0 md:space-x-4 md:flex-row">
             <div className="w-full lg:w-1/3 translate-y-3 translate-x-3 md:translate-y-0 md:translate-x-0">
               <img 
                 src="image/gallery/antrokan.jpg" 
@@ -71,7 +71,7 @@ const AboutUs = () => {
             >
               Every journey is a new experience that brings excitement and wonder. Let us guide you on this incredible adventure, where memories are made.
             </p>
-          <Fillbutton>View More</Fillbutton>
+          <Fillbutton href='/destination'>View More</Fillbutton>
 
           </div>
         </div>
