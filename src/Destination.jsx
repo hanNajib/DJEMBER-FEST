@@ -83,7 +83,7 @@ export default function Destination() {
           <div className="absolute w-full h-[105vh] bg-fixed"></div>
           <div className="w-[100%] h-full flex items-center justify-center relative">
             <div className="text flex flex-col">
-              <p className="sh judul text-[4rem]  text-slate-50 text-center md:mb-0 font-bebas_neue font-semibold md:text-[10rem]">
+              <p className="sh judul text-[3rem] md:text-[4rem] lg:text-[10rem] text-slate-50 text-center font-bebas_neue font-semibold">
                 Destination Djember
               </p>
             </div>
@@ -92,18 +92,31 @@ export default function Destination() {
       </div>
 
       {/* Search bar */}
-      <div className="flex justify-center p-20">
-        <input
-          type="search"
-          placeholder="Search Your Destination"
-          className="w-[50rem] rounded-3xl h-[4rem] py-2 px-5 text-neutral-800 shadow-lg outline-none bg bg-neutral-50 border-2 border-neutral-600"
-          value={searchTerm}
-          onChange={handleSearch}
-        />
+      <div className="flex justify-center px-4 py-10 md:px-20 md:py-20">
+        <div className="relative w-full max-w-md md:max-w-lg lg:max-w-xl">
+          {/* SVG Icon */}
+          <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-5"
+              viewBox="0 0 512 512"
+            >
+              <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+          </div>
+
+          <input
+            type="text"
+            placeholder="Search Your Destination"
+            className="w-full h-12 md:h-16 pl-12 pr-4 rounded-full shadow-lg outline-none bg-neutral-50 border-2 border-neutral-600 focus:outline-none focus:ring-2 focus:ring-gray-400"
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+        </div>
       </div>
 
       {/* Hasil pencarian */}
-      <div className="relative z-10 px-10">
+      <div className="relative z-10 px-4 md:px-10">
         {filteredDestinasi.length > 0 ? (
           filteredDestinasi.map((destinasi, index) => (
             <div key={index}>
