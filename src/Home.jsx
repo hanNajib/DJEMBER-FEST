@@ -8,6 +8,7 @@ import Wisata from "./Wisata";
 import Kuliner from "./Kuliner";
 import Navbar from './components/Navbar';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Wisata></Wisata>
       <Kuliner></Kuliner>
       <Contact></Contact>
+      <Footer></Footer>
     </StrictMode>
   );
 }
