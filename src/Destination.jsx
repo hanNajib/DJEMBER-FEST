@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { DestinasiKanan, DestinasiKiri } from "./components/Destinasi";
-
+import Footer from "./Footer";
 export default function Destination() {
   // Data destinasi yang akan dicari
   const destinasiData = [
@@ -114,7 +114,7 @@ export default function Destination() {
           />
         </div>
       </div>
-
+          
       {/* Hasil pencarian */}
       <div className="relative z-10 px-4 md:px-10">
         {filteredDestinasi.length > 0 ? (
@@ -144,6 +144,7 @@ export default function Destination() {
           <p className="text-center text-neutral-500">No results found</p>
         )}
       </div>
+      <Footer></Footer>
     </>
   );
 }

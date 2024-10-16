@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Footer from './Footer';
 const SpecialDeals = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -259,6 +259,7 @@ const SpecialDeals = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };
