@@ -1,5 +1,7 @@
 export default function Contact() {
     return (
+
+      
       <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen bg-gray-100">
         {/* Left section with information and SVG illustration */}
         <div className="lg:w-[40rem] p-10 bg-white rounded-lg shadow-lg">
@@ -41,7 +43,7 @@ export default function Contact() {
               />
             </div>
   
-            <div>
+            <div>``
               <label className="block text-gray-700">Message</label>
               <textarea
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
