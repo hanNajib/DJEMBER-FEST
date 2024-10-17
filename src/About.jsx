@@ -16,7 +16,7 @@ export default function About() {
                 <div className="w-[7px] h-[7px] rounded-full bg-slate-50"></div>
             </div>
             <div className="relative bg-neutral-800 pb-10">
-                <h1 className="text-[6rem] text-slate-50 text-center font-bebas_neue ">THE CULTURE OF DJEMBER</h1>
+                <h1 className="text-[2rem] md:text-[4rem] lg:text-[6rem] text-slate-50 text-center font-bebas_neue ">THE CULTURE OF DJEMBER</h1>
             </div>
         </div>
     )

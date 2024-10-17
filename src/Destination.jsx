@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { DestinasiKanan, DestinasiKiri } from "./components/Destinasi";
 import Footer from "./Footer";
 
 export default function Destination() {
-  // Data destinasi yang akan dicari
   const destinasiData = [
     {
       judul: "Pantai Papuma",
