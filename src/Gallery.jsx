@@ -119,7 +119,7 @@ function Gallery() {
             key={index}
             className={`cursor-pointer transition-all duration-500 ease-in-out 
             ${IndexSekarang === index ? 'w-32 h-32' : 'w-16 h-16'} 
-            border-2 ${IndexSekarang === index ? 'border-blue-500' : 'border-gray-300'}`}
+            border-2 ${IndexSekarang === index ? 'border-gray-300' : 'border-slate-700'}`}
             style={{
               backgroundImage: `url(/image/gallery/${image.src})`,
               backgroundSize: 'cover',
