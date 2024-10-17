@@ -50,11 +50,17 @@ const AboutUs = () => {
           </div>
 
           <div className="lg:w-1/2 mt-8 md:mt-0 lg:ml-16">
-            <h2 className="text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4 duration-700 delay-200 overflow-hidden" 
-              style={{
-                width: isInView ? '100%' : '0px',
-              }}
-            >Destination</h2>
+            <div className="flex relative">
+              <h2 className="text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4 duration-700 delay-200 overflow-hidden" 
+                style={{
+                  width: isInView ? '100%' : '0px',
+                }}
+              >Destinasi  
+              </h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="#262626" class="bi bi-geo-alt-fill" viewBox="0 0 16 16" className="absolute right-36 top-3">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+            </div>
             <p className="text-gray-600 mb-4 duration-700 delay-200"
               style={{
                 transform: isInView ? 'none' : 'translateX(200px)',
