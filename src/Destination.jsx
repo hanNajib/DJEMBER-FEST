@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { DestinasiKanan, DestinasiKiri } from "./components/Destinasi";
 import Footer from "./Footer";
+
 export default function Destination() {
   // Data destinasi yang akan dicari
   const destinasiData = [
@@ -58,6 +59,9 @@ export default function Destination() {
 
   // State untuk pencarian
   const [searchTerm, setSearchTerm] = useState("");
+  
+  // State untuk animasi muncul
+  const [isVisible, setIsVisible] = useState(false);
 
   // Fungsi untuk menangani input pencarian
   const handleSearch = (e) => {
@@ -68,6 +72,14 @@ export default function Destination() {
   const filteredDestinasi = destinasiData.filter((destinasi) =>
     destinasi.judul.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  // Mengatur animasi muncul setelah 0.5 detik
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 500); // Delay 500ms sebelum teks muncul
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
@@ -82,7 +94,20 @@ export default function Destination() {
           ></div>
 
           <div className="absolute w-full h-[105vh] bg-fixed"></div>
-          <div className="w-[100%] h-full flex items-center justify-center relative">
+
+          {/* SVG Icon di pojok kiri atas */}
+          <a href="" className="absolute top-4 left-4 transform rotate-180">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              className="w-12 h-12 text-white" // Atur ukuran dan warna sesuai kebutuhan
+            >
+              <path fill="#FFFF" d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+            </svg>
+          </a>
+
+          {/* Teks dengan Animasi Muncul */}
+          <div className={`w-[100%] h-full flex items-center justify-center relative transition-transform duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
             <div className="text flex flex-col">
               <p className="sh judul text-[3rem] md:text-[4rem] lg:text-[10rem] text-slate-50 text-center font-bebas_neue font-semibold">
                 Destination Djember
@@ -115,7 +140,7 @@ export default function Destination() {
           />
         </div>
       </div>
-          
+
       {/* Hasil pencarian */}
       <div className="relative z-10 px-4 md:px-10">
         {filteredDestinasi.length > 0 ? (
@@ -147,7 +172,7 @@ export default function Destination() {
           <p className="text-center text-neutral-500">No results found</p>
         )}
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }
