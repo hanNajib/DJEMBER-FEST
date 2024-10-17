@@ -2,27 +2,27 @@ import { useState, useEffect } from 'react';
 
 const images = [
   {
-    src: "payangan.webp",
+    src: "jfc_galery.jpg",
     title: "Judul Gambar 1", 
     description: "Deskripsi untuk gambar 1."
   },
   {
-    src: "love.webp",
+    src: "musik-patrol.jpg",
     title: "Judul Gambar 2",
     description: "Deskripsi untuk gambar 2."
   },
   {
-    src: "air-antrokan.jpeg",
+    src: "tari-lahbako.jpeg",
     title: "Judul Gambar 3",
     description: "Deskripsi untuk gambar 3."
   },
   {
-    src: "papuma1.jpg",
+    src: "pandalungan.jpg",
     title: "Judul Gambar 4",
     description: "Deskripsi untuk gambar 4."
   },
   {
-    src: "love.webp",
+    src: "merpati.webp",
     title: "Judul Gambar 5",
     description: "Deskripsi untuk gambar 5."
   },
