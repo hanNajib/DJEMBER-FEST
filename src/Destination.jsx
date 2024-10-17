@@ -11,6 +11,7 @@ export default function Destination() {
       deskripsi: "lorem Ipsum",
       image: "/image/gallery/papuma1.jpg",
       posisi: "kanan",
+      href: 'https://google.com'
     },
     {
       judul: "Teluk Love",
@@ -151,6 +152,7 @@ export default function Destination() {
                   lokasi={destinasi.lokasi}
                   deskripsi={destinasi.deskripsi}
                   image={destinasi.image}
+                  href={destinasi.href}
                   className="transition-transform hover:scale-105"
                 />
               ) :   (
@@ -159,6 +161,7 @@ export default function Destination() {
                   lokasi={destinasi.lokasi}
                   deskripsi={destinasi.deskripsi}
                   image={destinasi.image}
+                  href={destinasi.href}
                   className="transition-transform hover:scale-105"
                 />
               )}

@@ -71,7 +71,7 @@ const AboutUs = () => {
             >
               Every journey is a new experience that brings excitement and wonder. Let us guide you on this incredible adventure, where memories are made.
             </p>
-          <Fillbutton href='/destination'>View More</Fillbutton>
+          <Fillbutton href='/destination' fill="bg-yellow-500">View More</Fillbutton>
 
           </div>
         </div>
