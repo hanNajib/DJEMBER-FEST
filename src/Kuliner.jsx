@@ -24,12 +24,12 @@ export default function Kuliner() {
             <img
               src="/image/model.png"
               alt=""
-              className="w-full md:w-full md:scale-75 lg:scale-100 lg:pb-10"
+              className="w-full md:w-full md:scale-75 md:-translate-y-10 lg:scale-100 lg:pb-10"
             />
 
             <div className="flex justify-center items-center w-full h-full md:w-screen md:-bottom-64 absolute lg:relative lg:-translate-y-56 -bottom-36 right-1">
               <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-              <div className="md:w-[80vw] lg:w-[50vw] w-screen md:h-[85vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
+              <div className="md:w-[80vw] lg:w-[50vw] w-screen md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
               <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
                     Tahukah Kamu?
                   </h1>

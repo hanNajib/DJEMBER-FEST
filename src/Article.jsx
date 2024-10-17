@@ -35,7 +35,6 @@ export default function Article() {
     },
   ];
 
-
   const handleOpenForm = (img, judul, deskripsi) => {
     setImg(img);
     setJudul(judul);
@@ -45,7 +44,7 @@ export default function Article() {
 
   return (
     <>
-      <ArticleFormData img={Img} judul={Judul} deskripsi={Deskripsi} IsOpen={IsOpen}></ArticleFormData>
+      <ArticleFormData img={Img} judul={Judul} deskripsi={Deskripsi} IsOpen={IsOpen} setIsOpen={setIsOpen} />
       <div className="bg-slate-200 pb-10 relative overflow-x-clip" id="article">
         <section className="w-full p-4 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 -translate-y-16 place-items-center z-50">
           {kartuData.map((kartu, index) => (
@@ -54,7 +53,7 @@ export default function Article() {
               img={kartu.img}
               judul={kartu.judul}
               deskripsi={kartu.deskripsi}
-              onClick={() => handleOpenForm(kartu.img, kartu.judul, kartu.deskripsi)}
+              onClick={() => handleOpenForm(kartu.img, kartu.judul, kartu.deskripsi)} // Menambahkan onClick agar modal terbuka
             />
           ))}
         </section>
