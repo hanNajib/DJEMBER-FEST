@@ -16,7 +16,7 @@ const SpecialDeals = () => {
     { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg' },
     { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg' },
     { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg' },
-    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg' },
+    { id: 11, name: 'Mie Ayam Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg' },
     { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg' },
   ];
 

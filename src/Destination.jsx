@@ -8,52 +8,59 @@ export default function Destination() {
     {
       judul: "Pantai Papuma",
       lokasi: "Wuluhan, Jember, Jawa Timur.",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Pantai Papuma merupakan pantai yang indah. Kawasan pantai ini memiliki daratan yang menjorok ke laut membuat area pantai memiliki panorama yang indah untuk dinikmati. Salah satu keindahan pantai adalah adanya kawasan yang banyak karang. ",
       image: "/image/gallery/papuma1.jpg",
       posisi: "kanan",
-      href: 'https://google.com'
+      href: 'https://maps.app.goo.gl/qGj6oaTED2WPdkBA7'
     },
     {
       judul: "Teluk Love",
       lokasi: "Ambulu, Jember, Jawa Timur",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Teluk Love berada di sekitar 200 meter ujung timur pantai Payangan. Dinamakn Teluk Love karena penampakannya yang menyerupai love (bentuk hati) jika dilihat dari atas.",
       image: "/image/gallery/love.webp",
       posisi: "kiri",
+      href: 'https://maps.app.goo.gl/jThjDGsycRUVqZbW9'
+      
     },
     {
       judul: "Gunung Gambir",
       lokasi: "Sumberbaru, Jember, Jawa Timur",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Kebun Teh Gunung Gambir adalah sebuah kebun teh seluas 183 hektar. Kebun teh ini tepatnya terletak di lereng Gunung Argopuro yang berjarak ± 60 km dari pusat kota Jember dan terletak pada ketinggian 900 meter di atas permukaan laut. ",
       image: "/image/gallery/gunung-gambir.webp",
       posisi: "kanan",
+      href: 'https://maps.app.goo.gl/GPErjJuhZjZzWswMA'
     },
     {
       judul: "Nusa Barung",
       lokasi: "Puger, Jember, Jawa Timur",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Nusa Barung memiliki beragam ekosistem seperti hutan pantai, mangrove, dan hutan tropis dataran rendah dengan berbagai jenis flora dan fauna.Fauna.",
       image: "/image/gallery/Barung Island.webp",
       posisi: "kiri",
+      href: 'https://maps.app.goo.gl/j4QvGQLxpn6NAuiF9'
     },
     {
       judul: "Air Terjun Antrokan",
       lokasi: "Tanggul, Jember, Jawa Timur",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Air Terjun Antrokan dengan ketinggian mencapai 40 meter. Airnya yang deras seolah keluar dari Bukit Batu dan langsung mengalir ke lembah di bawahnya.",
       image: "/image/gallery/air-antrokan.jpeg",
       posisi: "kanan",
+      href:'https://maps.app.goo.gl/iL1eQpZgyvfPwW3u9'
     },
     {
       judul: "Jember Mini Zoo",
       lokasi: "Kaliwates, Jember, Jawa Timur",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Jember Mini Zoo merupakan kebun binatang mini di Kabupaten Jember. Memiliki banyak Spesies hewan",
       image: "/image/gallery/jemberminizoo.webp",
       posisi: "kiri",
+      href: 'https://maps.app.goo.gl/i1w19GKXa5mz4Lj86'
     },
     {
       judul: "Pantai Payangan",
       lokasi: "Ambulu, Jember, Jawa Timur",
-      deskripsi: "lorem Ipsum",
+      deskripsi: "Pantai Payangan merupakan destinasi wisata yang memiliki beberapa keunikan yang membuat pengunjung yang datang akan terpesona. Salah satu yang menjadi magnet bagi para pengunjung adalah pemandangannya yang indah.",
       image: "/image/gallery/payangan.webp",
       posisi: "kanan",
+      href:'https://maps.app.goo.gl/uXxPsdt3EcxtWXni9'
     },
   ];
 
