@@ -16,7 +16,7 @@ const SpecialDeals = () => {
     { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg' },
     { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg' },
     { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg' },
-    { id: 11, name: 'Mie Ayam Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg' },
+    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg' },
     { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg' },
   ];
 
@@ -60,7 +60,9 @@ const SpecialDeals = () => {
               <p className="sh judul text-[4rem] text-slate-50 text-center md:mb-0 font-bebas_neue font-semibold md:text-[6rem] lg:text-[9rem]">
                 Kuliner UMKM Djember
               </p>
-              <a href="" className='border-2 p-4 text-[20px] text-white relative w-[15rem] text-center rounded-xl font-bold'>Kembali ke beranda</a>
+              <a href="" className='border-2 p-4 text-[20px] text-white relative w-[15rem] text-center rounded-xl font-bold'>
+                Kembali ke beranda
+              </a>
             </div>
           </div>
         </section>
