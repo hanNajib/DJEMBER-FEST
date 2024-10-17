@@ -5,10 +5,9 @@ export default function Contact() {
       <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen bg-gray-100">
         {/* Left section with information and SVG illustration */}
         <div className="lg:w-[40rem] p-10 bg-white rounded-lg shadow-lg">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">Hubungi kami</h1>
           <p className="text-gray-600 mb-8">
-            Have any questions? We'd love to hear from you! Fill out the form or
-            reach us through our social media channels.
+            Kritik dan saran dari anda sangat penting untuk perkembangan kami. 
           </p>
   
           {/* SVG Illustration */}
@@ -26,29 +25,29 @@ export default function Contact() {
         <div className="w-full lg:w-[40rem] p-10 bg-white rounded-lg shadow-lg mt-10 lg:mt-0 lg:ml-10">
           <form className="space-y-6">
             <div>
-              <label className="block text-gray-700">Your Name</label>
+              <label className="block text-gray-700">Nama Anda</label>
               <input
                 type="text"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
-                placeholder="Enter your name"
+                placeholder="Masukkan nama anda"
               />
             </div>
   
             <div>
-              <label className="block text-gray-700">Email Address</label>
+              <label className="block text-gray-700">Alamat Email</label>
               <input
                 type="email"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
-                placeholder="Enter your email"
+                placeholder="Masukkan email anda"
               />
             </div>
   
             <div>``
-              <label className="block text-gray-700">Message</label>
+              <label className="block text-gray-700">Pesan</label>
               <textarea
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
                 rows="4"
-                placeholder="Write your message here"
+                placeholder="Tulis pesan yang ingin anda sampaikan di sini"
               ></textarea>
             </div>
   
@@ -56,7 +55,7 @@ export default function Contact() {
               type="submit"
               className="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition-colors"
             >
-              Send Message
+              Kirim
             </button>
           </form>
         </div>

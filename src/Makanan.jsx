@@ -44,7 +44,7 @@ const SpecialDeals = () => {
             }}
           ></div>
 
-          <a href='' className="absolute top-4 left-4 transform rotate-180">
+          {/* <a href='' className="absolute top-4 left-4 transform rotate-180">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -52,14 +52,15 @@ const SpecialDeals = () => {
             >
               <path fill="#FFFF" d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
             </svg>
-          </a>
+          </a> */}
 
           <div className="absolute w-full h-[105vh] bg-fixed"></div>
           <div className={`w-[100%] h-full flex items-center justify-center relative transition-transform duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-            <div className="text flex flex-col">
-              <p className="sh judul text-[4rem] text-slate-50 text-center md:mb-0 font-bebas_neue font-semibold md:text-[6rem] lg:text-[10rem]">
-                Kuliner Djember
+            <div className="text flex items-center flex-col">
+              <p className="sh judul text-[4rem] text-slate-50 text-center md:mb-0 font-bebas_neue font-semibold md:text-[6rem] lg:text-[9rem]">
+                Kuliner UMKM Djember
               </p>
+              <a href="" className='border-2 p-4 text-[20px] text-white relative w-[15rem] text-center rounded-xl font-bold'>Kembali ke beranda</a>
             </div>
           </div>
         </section>
@@ -77,7 +78,7 @@ const SpecialDeals = () => {
 
           <input
             type="text"
-            placeholder="Search Your Kuliner"
+            placeholder="Cari kuliner anda"
             className="w-full h-12 md:h-16 pl-12 pr-4 rounded-full shadow-lg outline-none bg-neutral-50 border-2 border-neutral-600 focus:outline-none focus:ring-2 focus:ring-gray-400"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -86,7 +87,7 @@ const SpecialDeals = () => {
       </div>
 
       <div className="bg-white py-12">
-        <h2 className="text-center text-3xl font-bold text-red-500 mb-8">Special Deals</h2>
+        <h2 className="text-center text-3xl font-bold text-red-500 mb-8">Temukan cita rasa kuliner di Jember</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-4 lg:mx-40 gap-8">
           {/* Cards for each deal */}
           {filteredDeals.map((deal) => (
@@ -101,7 +102,7 @@ const SpecialDeals = () => {
               </h3>
               <div className="flex justify-center items-center mt-4">
                 <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                  Order Now
+                  Kunjungi UMKM
                 </button>
               </div>
             </div>
