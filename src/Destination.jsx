@@ -153,7 +153,7 @@ export default function Destination() {
                   image={destinasi.image}
                   className="transition-transform hover:scale-105"
                 />
-              ) : (
+              ) :   (
                 <DestinasiKiri
                   judul={destinasi.judul}
                   lokasi={destinasi.lokasi}
