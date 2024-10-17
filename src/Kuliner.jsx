@@ -60,30 +60,30 @@ export default function Kuliner() {
 
                 <div className="md:w-[80vw] lg:w-[50vw] w-screen md:h-[55rem] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
                 <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
-                    Kuliner
+                    Kuliner UMKM
                   </h1>
 
                   {/* Section for images */}
                   <div className="grid grid-cols-2 gap-6 mt-6">
-                    <div className="p-4 bg-white shadow-2xl rounded-xl"> 
+                    <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2"> 
                       <img src="image/gallery/pecel.jpg" alt="Gambar 1" className="rounded-lg w-full h-40 object-cover shadow-md" />
                       <p className=" text-[20px] p-2 font-semibold ">Pecel pincuk garahan</p>
-                      <a className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
+                      <a href="" className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
                     </div>
-                    <div className="p-4 bg-white shadow-2xl rounded-xl"> 
+                    <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2"> 
                       <img src="image/gallery/jenang.jpg" alt="Gambar 1" className="rounded-lg w-full h-40 object-cover shadow-md" />
-                      <p className=" text-[20px] p-2 font-semibold">Pecel pincuk garahan</p>
-                      <a className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
+                      <p className=" text-[20px] p-2 font-semibold">Jenang Waluh</p>
+                      <a href="" className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
                     </div>
-                    <div className="p-4 bg-white shadow-2xl rounded-xl"> 
+                    <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2"> 
                       <img src="image/gallery/rol.jpg" alt="Gambar 1" className="rounded-lg w-full h-40 object-cover shadow-md" />
-                      <p className=" text-[20px] p-2 font-semibold">Pecel pincuk garahan</p>
-                      <a className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
+                      <p className=" text-[20px] p-2 font-semibold">Prol Tape</p>
+                      <a href="" className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
                     </div>
-                    <div className="p-4 bg-white shadow-2xl rounded-xl"> 
+                    <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2"> 
                       <img src="image/gallery/wedang-cor.webp" alt="Gambar 1" className="rounded-lg w-full h-40 object-cover shadow-md" />
-                      <p className=" text-[20px] p-2 font-semibold">Pecel pincuk garahan</p>
-                      <a className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
+                      <p className=" text-[20px] p-2 font-semibold">Wedang Cor</p>
+                      <a href="" className="bg-red-500 text-slate-50 p-2 rounded-md w-36 text-center">Kunjungi UMKM</a>
                     </div>
                     {/* <img src="image/gallery/jenang.jpg" alt="Gambar 2" className="rounded-lg w-full h-40 object-cover shadow-md" />
                     <img src="image/gallery/rol.jpg" alt="Gambar 3" className="rounded-lg w-full h-40 object-cover shadow-md" />
