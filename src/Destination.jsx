@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { DestinasiKanan, DestinasiKiri } from "./components/Destinasi";
 import Footer from "./Footer";
 
 export default function Destination() {
-  // Data destinasi yang akan dicari
   const destinasiData = [
     {
       judul: "Pantai Papuma",
@@ -110,7 +109,7 @@ export default function Destination() {
               <p className="sh judul text-[3rem] md:text-[4rem] lg:text-[10rem] text-slate-50 text-center font-bebas_neue font-semibold">
                 Destination Djember
               </p>
-              <a href="" className='border-2 p-4 text-[20px]  text-white relative w-[15rem] text-center rounded-xl font-bold'>
+              <a href="App.jsx" className='border-2 p-4 text-[20px]  text-white relative w-[15rem] text-center rounded-xl font-bold'>
                 Kembali ke beranda
               </a>
             </div>

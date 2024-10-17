@@ -9,6 +9,7 @@ import Kuliner from "./Kuliner";
 import Navbar from './components/Navbar';
 import Contact from './Contact';
 import Footer from './Footer';
+import ArticleFormData from "./components/ArticleFormData";
 
 export default function Home() {
   return (
