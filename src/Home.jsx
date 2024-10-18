@@ -9,6 +9,7 @@ import Kuliner from "./Kuliner";
 import Navbar from './components/Navbar';
 import Contact from './Contact';
 import Footer from './Footer';
+import Kontak from "./Kontak";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
       <Gallery></Gallery>
       <Wisata></Wisata>
       <Kuliner></Kuliner>
-      <Contact></Contact>
+      <Kontak></Kontak>
+      {/* <Contact></Contact> */}
       <Footer></Footer>
     </StrictMode>
   );

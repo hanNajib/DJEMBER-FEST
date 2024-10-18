@@ -27,7 +27,7 @@ export default function Kuliner() {
               className="w-full md:w-full md:scale-75 md:-translate-y-10 lg:scale-100 lg:pb-10"
             />
 
-            <div className="flex justify-center items-center w-full h-full md:w-screen md:-bottom-64 absolute lg:relative lg:-translate-y-56 -bottom-36 right-1">
+            <div className="flex justify-center items-center w-full h-full md:w-screen md:-bottom-64 absolute lg:relative lg:scale-90 lg:-translate-y-56 -bottom-36 right-1">
               <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
               <div className="md:w-[80vw] lg:w-[50vw] lg:h-full w-screen md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative flex flex-col">
               <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
@@ -74,7 +74,7 @@ export default function Kuliner() {
                     <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2 scale-90"> 
                       <img src="image/gallery/rol.jpg" alt="Gambar 1" className="rounded-lg w-full h-20 md:h-40 object-cover shadow-md" />
                       <p className="md:text-[20px] p-2 font-semibold">Prol Tape</p>
-                      <a href="" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
+                      <a href="https:/google.com" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
                     </div>
                     <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2 scale-90"> 
                       <img src="image/gallery/wedang-cor.webp" alt="Gambar 1" className="rounded-lg w-full h-20 md:h-40 object-cover shadow-md" />
