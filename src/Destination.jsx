@@ -133,7 +133,7 @@ export default function Destination() {
 
           <input
             type="text"
-            placeholder="Search Your Destination"
+            placeholder="Cari destinasi impian anda"
             className="w-full h-12 md:h-16 pl-12 pr-4 rounded-full shadow-lg outline-none bg-neutral-50 border-2 border-neutral-600 focus:outline-none focus:ring-2 focus:ring-gray-400"
             value={searchTerm}
             onChange={handleSearch}
