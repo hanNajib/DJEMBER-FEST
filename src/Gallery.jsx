@@ -100,9 +100,9 @@ function Gallery() {
       </div>
 
       {/* Title and Description */}
-      <div className="absolute bottom-20 left-20 lg:top-auto top-0 shadow-2xl transform text-white z-10 w-[40rem]">
-        <h2 className="text-[3rem] font-bold">{images[IndexSekarang].title}</h2>
-        <p className="mt-2">{images[IndexSekarang].description}</p>
+      <div className="absolute lg:bottom-20 lg:left-20 lg:top-auto md:left-10 left-2 bottom-5 shadow-2xl transform text-white z-10 w-[40rem]">
+        <h2 className="text-2xl md:text-[3rem] font-bold">{images[IndexSekarang].title}</h2>
+        <p className="text-xs md:text-base mt-2 max-w-[90%] md:max-w-full">{images[IndexSekarang].description}</p>
       </div>
 
       <div className="absolute bottom-0 w-full h-[100vh] bg-gradient-to-b from-transparent to-neutral-950">
@@ -110,10 +110,10 @@ function Gallery() {
 
      
       {/* Thumbnails and Navigation */}
-      <div className="absolute bottom-20 right-20 flex flex-col items-center space-x-2">
+      <div className="absolute scale-75 md:scale-100 lg:bottom-20 lg:right-20 right-1 md:right-5 bottom-48 flex flex-col lg:flex-row items-center space-x-2 space-y-1">
         {/* Prev Button */}
         <button 
-          className="h-8 w-8 bg-gray-800 text-white flex justify-center items-center rounded-full opacity-70 hover:opacity-100 transition-opacity duration-300"
+          className="h-8 w-8 bg-gray-800 text-white flex justify-center items-center rounded-full opacity-70 hover:opacity-100 transition-opacity duration-300 rotate-90 lg:rotate-0"
           onClick={handlePrev}
         >
           &#8249;
@@ -123,7 +123,7 @@ function Gallery() {
           <div
             key={index}
             className={`cursor-pointer transition-all duration-500 ease-in-out 
-            ${IndexSekarang === index ? 'w-32 h-32' : 'w-16 h-16'} 
+            ${IndexSekarang === index ? 'w-20 h-20 opacity-100' : 'w-16 h-16 opacity-70'} 
             border-2 ${IndexSekarang === index ? 'border-gray-300' : 'border-slate-700'}`}
             style={{
               backgroundImage: `url(/image/gallery/${image.src})`,
@@ -137,7 +137,7 @@ function Gallery() {
 
         {/* Next Button */}
         <button 
-          className="h-8 w-8 bg-gray-800 text-white flex justify-center items-center rounded-full opacity-70 hover:opacity-100 transition-opacity duration-300"
+          className="h-8 w-8 bg-gray-800 text-white flex justify-center items-center rounded-full opacity-70 hover:opacity-100 transition-opacity duration-300 rotate-90 lg:rotate-0"
           onClick={handleNext}
         >
           &#8250;
