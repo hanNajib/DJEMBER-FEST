@@ -80,7 +80,7 @@ const AboutUs = () => {
                 opacity: isInView ? 100 : 0
               }}
             >
-             Destinasi jember menawarkan pemandangan alam yang memukau, dengan pantai berpasir putih dan air laut yang jernih, serta dipadukan dengan keindahan budaya lokal yang autentik. Ideal untuk mereka yang ingin melarikan diri dari rutinitas dan menikmati ketenangan alam."
+             Destinasi jember menawarkan pemandangan alam yang memukau, dengan pantai berpasir putih dan air laut yang jernih, serta dipadukan dengan keindahan budaya lokal yang autentik. Ideal untuk mereka yang ingin melarikan diri dari rutinitas dan menikmati ketenangan alam.
             </p>
             <p className="text-gray-600 mb-4 duration-700 delay-200"
               style={{
@@ -90,7 +90,7 @@ const AboutUs = () => {
             >
              Setiap perjalanan adalah pengalaman baru yang membawa kegembiraan dan keajaiban. Biarkan kami membimbing Anda dalam petualangan luar biasa ini, di mana kenangan tercipta.
             </p>
-          <Fillbutton href='/destination' fill="bg-slate-300">View More</Fillbutton>
+          <Fillbutton href='/destination' fill="bg-slate-300">Temukan destinasi anda</Fillbutton>
 
           </div>
         </div>

@@ -23,7 +23,7 @@ export function DestinasiKanan({judul, lokasi, deskripsi, image, href}) {
               <p className="text-gray-600 mt-4 max-w-2xl text-xs md:text-base" style={{ transform: isInView ? "none" : "translateX(-200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}>
                 {deskripsi}
               </p>
-              <Fillbutton fill="bg-slate-300" href={href}>Location</Fillbutton>
+              <Fillbutton fill="bg-slate-300" href={href}>Kunjungi</Fillbutton>
               </div>
           </div>
 
@@ -57,7 +57,7 @@ export function DestinasiKiri({judul, lokasi, deskripsi, image, href}) {
             <p className="text-gray-600 text-sm md:text-base mt-4 max-w-2xl" style={{ transform: isInView ? "none" : "translateX(200px)", opacity: isInView ? 1 : 0, transition: "all .8s"}}>
               {deskripsi}
             </p>
-            <Fillbutton fill="bg-slate-300" href={href}>Location</Fillbutton>
+            <Fillbutton fill="bg-slate-300" href={href}>Kunjungi</Fillbutton>
             </div>
         </div>
       </div>
