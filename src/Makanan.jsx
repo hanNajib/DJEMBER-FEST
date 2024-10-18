@@ -6,18 +6,18 @@ const SpecialDeals = () => {
   const [isVisible, setIsVisible] = useState(false); // State for animation
 
   const deals = [
-    { id: 1, name: 'Pecel Pincuk Garahan', image: 'image/gallery/pecel.jpg', url: 'https://link-umkm-pecel.com' },
-    { id: 2, name: 'Jenang Waluh', image: 'image/gallery/jenang.jpg', url: 'https://link-umkm-jenang.com' },
-    { id: 3, name: 'Nasi Langi', image: 'image/gallery/Nasi-Langgi-32.jpg', url: 'https://link-umkm-nasi.com' },
-    { id: 4, name: 'Lontong Kupat', image: 'image/gallery/lontong.webp', url: 'https://link-umkm-lontong.com' },
-    { id: 5, name: 'Prol Tape', image: 'image/gallery/rol.jpg', url: 'https://link-umkm-prol.com' },
-    { id: 6, name: 'Wedang Cor', image: 'image/gallery/wedang-cor.webp', url: 'https://link-umkm-wedang.com' },
-    { id: 7, name: 'Suwar Suwir', image: 'image/gallery/suwar-suwir.jpg', url: 'https://link-umkm-suwar.com' },
-    { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg', url: 'https://link-umkm-pia.com' },
-    { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg', url: 'https://link-umkm-sate.com' },
-    { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg', url: 'https://link-umkm-mie.com' },
-    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg', url: 'https://link-umkm-bakso.com' },
-    { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg', url: 'https://link-umkm-gudeg.com' },
+    { id: 1, name: 'Pecel Pincuk Garahan', image: 'image/gallery/pecel.jpg', url: 'https://gofood.co.id/jember/restaurant/warung-pecel-pincuk-jowo-trisno-sumbersari-40ae0855-f06d-4817-8db4-42b9dc94393e' },
+    { id: 2, name: 'Jenang Waluh', image: 'image/gallery/jenang.jpg', url: 'https://www.primadonajember.com/produk/jenang-waloh-labu-khas-jember/' },
+    { id: 3, name: 'Nasi Langi', image: 'image/gallery/Nasi-Langgi-32.jpg', url: 'https://g.co/kgs/4rZWR9m' },
+    { id: 4, name: 'Lontong Kupat', image: 'image/gallery/lontong.webp', url: 'https://gofood.co.id/jember/restaurant/lontong-kupang-lestari-sumbersari-211097b1-9d87-4ef3-97d6-dfef80a1e5d7' },
+    { id: 5, name: 'Prol Tape', image: 'image/gallery/rol.jpg', url: 'https://gofood.co.id/jember/restaurant/camilan-dan-oleh-oleh-jember-by-elza-putra-food-patrang-jember-e1cf6662-636f-4202-8835-52f6c33a723d' },
+    { id: 6, name: 'Wedang Cor', image: 'image/gallery/wedang-cor.webp', url: 'https://gofood.co.id/jember/restaurant/warung-wedang-cor-p-dja-rawi-bentol-sumbersari-d99014b0-8982-48ae-8d29-4c26e2e46d46' },
+    { id: 7, name: 'Suwar Suwir', image: 'image/gallery/suwar-suwir.jpg', url: 'https://www.primadonajember.com/produk/suwar-suwir-jember/mLyoHH5' },
+    { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg', url: 'https://www.primadonajember.com/produk/pia-tape-jember/' },
+    { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg', url: 'https://gofood.co.id/jember/restaurant/warung-sate-cak-ri-sumber-bendo-f0245037-9b64-40ca-a1af-eaa140667d6d' },
+    { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg', url: 'https://gofood.co.id/id/jember/restaurant/pangsit-mie-rama-diponegoro-aec56a74-7920-46c5-ab2e-8db77dedb53c' },
+    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg', url: 'https://gofood.co.id/id/jember/restaurant/pangsit-mie-rama-diponegoro-aec56a74-7920-46c5-ab2e-8db77dedb53c' },
+    { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg', url: 'https://gofood.co.id/jember/restaurant/warung-nasi-gudeg-lumintu-kertanegara-7a5657a4-bb41-4901-bb99-8c9299d75e40' },
   ];
 
   const filteredDeals = deals.filter((deal) =>

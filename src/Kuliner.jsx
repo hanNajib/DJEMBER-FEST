@@ -64,22 +64,22 @@ export default function Kuliner() {
                     <div className="p-4 w-full aspect-square bg-white shadow-2xl rounded-xl flex flex-col gap-2 scale-90"> 
                       <img src="image/gallery/pecel.jpg" alt="Gambar 1" className="rounded-lg w-full h-20 md:h-40 object-cover shadow-md" />
                       <p className="md:text-[20px] p-2 font-semibold ">Pecel pincuk</p>
-                      <a href="" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
+                      <a href="https://gofood.co.id/jember/restaurant/warung-pecel-pincuk-jowo-trisno-sumbersari-40ae0855-f06d-4817-8db4-42b9dc94393e" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
                     </div>  
                     <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2 scale-90"> 
                       <img src="image/gallery/jenang.jpg" alt="Gambar 1" className="rounded-lg w-full h-20 md:h-40 object-cover shadow-md" />
                       <p className="md:text-[20px] p-2 font-semibold">Jenang Waluh</p>
-                      <a href="" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
+                      <a href="https://www.primadonajember.com/produk/jenang-waloh-labu-khas-jember/" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
                     </div>
                     <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2 scale-90"> 
                       <img src="image/gallery/rol.jpg" alt="Gambar 1" className="rounded-lg w-full h-20 md:h-40 object-cover shadow-md" />
                       <p className="md:text-[20px] p-2 font-semibold">Prol Tape</p>
-                      <a href="https:/google.com" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
+                      <a href="https://gofood.co.id/jember/restaurant/camilan-dan-oleh-oleh-jember-by-elza-putra-food-patrang-jember-e1cf6662-636f-4202-8835-52f6c33a723d" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
                     </div>
                     <div className="p-4 bg-white shadow-2xl rounded-xl flex flex-col gap-2 scale-90"> 
                       <img src="image/gallery/wedang-cor.webp" alt="Gambar 1" className="rounded-lg w-full h-20 md:h-40 object-cover shadow-md" />
                       <p className="md:text-[20px] p-2 font-semibold">Wedang Cor</p>
-                      <a href="" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
+                      <a href="https://gofood.co.id/jember/restaurant/warung-wedang-cor-p-dja-rawi-bentol-sumbersari-d99014b0-8982-48ae-8d29-4c26e2e46d46" className="text-xs md:text-base bg-red-500 text-slate-50 p-2 rounded-md w-full md:w-36 text-center">Kunjungi UMKM</a>
                     </div>
                   </div>
 
