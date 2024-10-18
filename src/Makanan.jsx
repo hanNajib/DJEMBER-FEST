@@ -6,18 +6,18 @@ const SpecialDeals = () => {
   const [isVisible, setIsVisible] = useState(false); // State for animation
 
   const deals = [
-    { id: 1, name: 'Pecel Pincuk Garahan', image: 'image/gallery/pecel.jpg' },
-    { id: 2, name: 'Jenang Waluh', image: 'image/gallery/jenang.jpg' },
-    { id: 3, name: 'Nasi Langi', image: 'image/gallery/Nasi-Langgi-32.jpg' },
-    { id: 4, name: 'Lontong Kupat', image: 'image/gallery/lontong.webp' },
-    { id: 5, name: 'Prol Tape', image: 'image/gallery/rol.jpg' },
-    { id: 6, name: 'Wedang Cor', image: 'image/gallery/wedang-cor.webp' },
-    { id: 7, name: 'Suwar Suwir', image: 'image/gallery/suwar-suwir.jpg' },
-    { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg' },
-    { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg' },
-    { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg' },
-    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg' },
-    { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg' },
+    { id: 1, name: 'Pecel Pincuk Garahan', image: 'image/gallery/pecel.jpg', url: 'https://link-umkm-pecel.com' },
+    { id: 2, name: 'Jenang Waluh', image: 'image/gallery/jenang.jpg', url: 'https://link-umkm-jenang.com' },
+    { id: 3, name: 'Nasi Langi', image: 'image/gallery/Nasi-Langgi-32.jpg', url: 'https://link-umkm-nasi.com' },
+    { id: 4, name: 'Lontong Kupat', image: 'image/gallery/lontong.webp', url: 'https://link-umkm-lontong.com' },
+    { id: 5, name: 'Prol Tape', image: 'image/gallery/rol.jpg', url: 'https://link-umkm-prol.com' },
+    { id: 6, name: 'Wedang Cor', image: 'image/gallery/wedang-cor.webp', url: 'https://link-umkm-wedang.com' },
+    { id: 7, name: 'Suwar Suwir', image: 'image/gallery/suwar-suwir.jpg', url: 'https://link-umkm-suwar.com' },
+    { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg', url: 'https://link-umkm-pia.com' },
+    { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg', url: 'https://link-umkm-sate.com' },
+    { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg', url: 'https://link-umkm-mie.com' },
+    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg', url: 'https://link-umkm-bakso.com' },
+    { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg', url: 'https://link-umkm-gudeg.com' },
   ];
 
   const filteredDeals = deals.filter((deal) =>
@@ -43,16 +43,6 @@ const SpecialDeals = () => {
               backgroundBlendMode: 'multiply',
             }}
           ></div>
-
-          {/* <a href='' className="absolute top-4 left-4 transform rotate-180">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-              className="w-12 h-12 text-white" // Adjust size and color as needed
-            >
-              <path fill="#FFFF" d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
-            </svg>
-          </a> */}
 
           <div className="absolute w-full h-[105vh] bg-fixed"></div>
           <div className={`w-[100%] h-full flex items-center justify-center relative transition-transform duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
@@ -103,9 +93,11 @@ const SpecialDeals = () => {
                 {deal.name}
               </h3>
               <div className="flex justify-center items-center mt-4">
-                <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
-                  Kunjungi UMKM
-                </button>
+                <a href={deal.url} target="_blank" rel="noopener noreferrer">
+                  <button className="bg-red-500 text-white px-4 py-2 rounded-lg">
+                    Kunjungi UMKM
+                  </button>
+                </a>
               </div>
             </div>
           ))}
