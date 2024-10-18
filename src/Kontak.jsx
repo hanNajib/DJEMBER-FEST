@@ -6,7 +6,7 @@ function Kontak() {
   return (
     <>
       {/* Background and title */}
-      <div className={`${Open ? 'bg-neutral-700' : 'bg-slate-300 hover:bg-neutral-700'} relative w-full h-full transition-all duration-500 overflow-hidden shadow-xl z-20 border-2 p-8 border-l-[1rem] border-t-2 border-neutral-800 group flex items-center cursor-pointer`} onClick={() => setOpen(!Open)}>
+      <div id="contact" className={`${Open ? 'bg-neutral-700' : 'bg-slate-300 hover:bg-neutral-700'} relative w-full h-full transition-all duration-500 overflow-hidden shadow-xl z-20 border-2 p-8 border-l-[1rem] border-t-2 border-neutral-800 group flex items-center cursor-pointer`} onClick={() => setOpen(!Open)}>
       <svg width="" height="" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-14 h-14 md:w-[7rem] md:h-[7rem] absolute right-0 -translate-y-0.5 transition-all duration-500 ${Open ? 'rotate-180' : 'rotate-45'}`}>
         <rect x="6.51465" y="9.34314" width="4" height="20" transform="rotate(-45 6.51465 9.34314)" fill="#262626" className={` ${ Open ? 'fill-slate-300' : 'fill-neutral-800 group-hover:fill-slate-300'} transition-all duration-500`}/>
         <rect x="9.34326" y="23.4853" width="4" height="20" transform="rotate(-135 9.34326 23.4853)" fill="#262626" className={` ${ Open ? 'fill-slate-300' : 'fill-neutral-800 group-hover:fill-slate-300'} transition-all duration-500`}/>
