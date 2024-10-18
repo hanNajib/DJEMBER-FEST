@@ -65,13 +65,13 @@ export default function Navbar() {
           
           <img src="public/image/logo-new.svg" alt="logo" className="hidden lg:block relative " />
           <div className="flex flex-col lg:flex-row gap-5 pb-5 md:pb-0 z-10 text-center">
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Home</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Article</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">About</a>
-          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Culture</a>
-           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Destination</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Beranda</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Artikel</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Tentang</a>
+          <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Budaya</a>
+           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Destinasi</a>
            <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">UMKM</a>
-           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Contact</a>
+           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Kontak</a>
           {/* <div className="w-full absolute -bottom-4 rotate-3 h-10 left-0 bg-slate-600 z-0 border-b-2 border-b-black"></div> */}
           </div>
         </div>

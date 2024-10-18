@@ -57,7 +57,7 @@ export default function Contact() {
                 <label htmlFor="message" className="block text-left text-gray-700">Pesan</label>
                 <textarea
                   id="message"
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 resize-none"
                   rows="4"
                   placeholder="Tulis pesan yang ingin anda sampaikan di sini"
                 ></textarea>
