@@ -12,12 +12,12 @@ const AboutUs = () => {
       id="destination"
     >
       <div className="absolute opacity-[4.5%] overflow-x-hidden max-w-[90vw] overflow-hidden">
-        <div className="w-full h-full absolute bg-gradient-to-b from-transparent via-transparent to-slate-100"></div>
-        <img
+        <div className="w-full h-full absolute bg-gradient-to-b from-transparent to-slate-200"></div>
+        {/* <img
           src="public/image/svg-bg-destinasi.svg"
           alt=""
           className="w-screen scale-125 p-0"
-        />
+        /> */}
       </div>
 
       <div className="container mx-auto px-4 w-full">

@@ -101,7 +101,7 @@ function Gallery() {
 
       {/* Title and Description */}
       <div className="absolute lg:bottom-20 lg:left-20 lg:top-auto md:left-10 left-2 bottom-5 shadow-2xl transform text-white z-10 w-[40rem]">
-        <h2 className="text-2xl md:text-[3rem] font-bold">{images[IndexSekarang].title}</h2>
+        <h2 className="text-2xl md:text-[3rem] font-bold pb-1">{images[IndexSekarang].title}</h2>
         <p className="text-xs md:text-base mt-2 max-w-[90%] md:max-w-full">{images[IndexSekarang].description}</p>
       </div>
 
