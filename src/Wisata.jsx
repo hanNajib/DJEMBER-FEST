@@ -7,7 +7,7 @@ const AboutUs = () => {
   const isInView = useInView(ref, {once: false})
   return (
     <section ref={ref} className="pt-28 pb-20  md:px-10 lg:px-20 w-full overflow-hidden" id="destination">
-      <div className="absolute opacity-[4.5%] scale-125">
+      <div className="absolute opacity-[4%] scale-125">
       <div className="w-full h-full absolute bg-gradient-to-b from-transparent via-transparent to-slate-100"></div>
         <img src="public/image/svg-bg-destinasi.svg" alt="" />
       </div> 
