@@ -14,7 +14,7 @@ export default function Kuliner() {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="w-screen h-full lg:h-[150vh] bg-slate-100 pt-36 relative overflow-x-hidden overflow-y-hidden" id="umkm">
+      <div className="w-screen h-full lg:h-[150vh] pt-36 relative bg-gradient-to-b from-transparent to-slate-200 overflow-x-hidden overflow-y-hidden" id="umkm">
         <div className="w-full h-full bg-slate-300 absolute rotate-[2deg] scale-110"></div>
         <div className="absolute z-10 scale-125 opacity-20 mt-40">
           <img src="../public/image/makanrevisi.svg" alt="" />
