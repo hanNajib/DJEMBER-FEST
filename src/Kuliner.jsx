@@ -29,11 +29,11 @@ export default function Kuliner() {
 
             <div className="flex justify-center items-center w-full h-full md:w-screen md:-bottom-64 absolute lg:relative lg:-translate-y-56 -bottom-36 right-1">
               <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-              <div className="md:w-[80vw] lg:w-[50vw] w-screen md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
+              <div className="md:w-[80vw] lg:w-[50vw] lg:h-screen w-screen md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
               <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
                     Tahukah Kamu?
                   </h1>
-                  <p className="text-base md:text-3xl lg:text-2xl pt-10 leading-8">
+                  <p className="text-base md:text-2xl lg:text-2xl pt-10 leading-8">
                     Jember menyimpan sejuta kelezatan kuliner yang siap memanjakan
                     lidahmu, dengan hidangan unik kaya cita rasa lokal dan rempah
                     khas. Setiap sudutnya menyimpan kejutan kuliner, terutama dari
@@ -55,7 +55,7 @@ export default function Kuliner() {
                   </div>
                 </div>
 
-                <div className="md:w-[80vw] lg:w-[50vw] w-screen lg:h-[115vh] md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
+                <div className="md:w-[80vw] lg:w-[50vw] w-screen lg:h-screen md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative">
                   <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
                     Kuliner UMKM
                   </h1>
@@ -86,13 +86,13 @@ export default function Kuliner() {
                   {/* Buttons */}
                   <div className="mt-9 flex justify-between">
                     <span
-                      className="text-base md:text-lg text-neutral-800 border-2 border-neutral-800 p-3 font-semibold rounded-xl cursor-pointer absolute lg:bottom-10 md:bottom-3 left-16"
+                      className="text-base md:text-lg md:scale-75 md:translate-y-1 md:pt-2 md:px-5 text-neutral-800 border-2 border-neutral-800 p-3 font-semibold rounded-xl cursor-pointer absolute lg:bottom-10 md:bottom-3 left-16"
                       onClick={handleFlip}
                     >
                       Kembali
                     </span>
                     <span
-                      className="absolute lg:bottom-10 md:bottom-3 right-16"
+                      className="absolute lg:bottom-10 md:bottom-1.5 right-16 scale-75"
                     >
                       <Fillbutton href="/makanan" fill="bg-slate-300">View More</Fillbutton>
                     </span>
