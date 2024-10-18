@@ -100,7 +100,7 @@ function Gallery() {
       </div>
 
       {/* Title and Description */}
-      <div className="absolute bottom-20 left-20 transform text-white z-10 w-[40rem]">
+      <div className="absolute bottom-20 left-20 lg:top-auto top-0 shadow-2xl transform text-white z-10 w-[40rem]">
         <h2 className="text-[3rem] font-bold">{images[IndexSekarang].title}</h2>
         <p className="mt-2">{images[IndexSekarang].description}</p>
       </div>
@@ -110,7 +110,7 @@ function Gallery() {
 
      
       {/* Thumbnails and Navigation */}
-      <div className="absolute bottom-20 right-20 flex items-center space-x-2">
+      <div className="absolute bottom-20 right-20 flex flex-col items-center space-x-2">
         {/* Prev Button */}
         <button 
           className="h-8 w-8 bg-gray-800 text-white flex justify-center items-center rounded-full opacity-70 hover:opacity-100 transition-opacity duration-300"
