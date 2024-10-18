@@ -58,7 +58,7 @@ const SpecialDeals = () => {
           <div className={`w-[100%] h-full flex items-center justify-center relative transition-transform duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
             <div className="text flex items-center flex-col">
               <p className="sh judul text-[4rem] text-slate-50 text-center md:mb-0 font-bebas_neue font-semibold md:text-[6rem] lg:text-[9rem]">
-                Kuliner UMKM Djember
+                Kuliner UMKM Jember
               </p>
               <a href="/" className='border-2 p-4 text-[20px] text-white relative w-[15rem] text-center rounded-xl font-bold'>
                 Kembali ke beranda
