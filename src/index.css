@@ -29,7 +29,7 @@ img, div {
   max-width: 100vw;
 }
 
-a::before {
+.btn::before {
   content: "";
   position: absolute;
   top: -6px; /* Sesuaikan jarak ke atas */
@@ -44,7 +44,7 @@ a::before {
   z-index: -1; /* Pastikan bayangan di belakang */
 }
 
-a:hover::before {
+.btn:hover::before {
   opacity: 1;
   animation: spin 3s linear infinite;
 }
