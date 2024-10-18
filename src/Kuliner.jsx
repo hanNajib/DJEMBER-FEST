@@ -84,7 +84,7 @@ export default function Kuliner() {
                   </div>
 
                   {/* Buttons */}
-                  <div className="md:mt-2 scale-75 -translate-y-5 flex justify-between items-center">
+                  <div className="md:mt-2 scale-75 md:scale-100 -translate-y-5 flex justify-between items-center">
                     <span
                       className="text-base md:text-lg md:scale-100 px-4 py-3 mt-5 text-neutral-800 border-2 border-neutral-800 font-semibold rounded-xl cursor-pointer"
                       onClick={handleFlip}
