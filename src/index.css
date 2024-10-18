@@ -28,3 +28,32 @@
 img, div {
   max-width: 100vw;
 }
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: -6px; /* Sesuaikan jarak ke atas */
+  left: -6px; /* Sesuaikan jarak ke kiri */
+  right: -6px; /* Sesuaikan jarak ke kanan */
+  bottom: -6px; /* Sesuaikan jarak ke bawah */
+  border: 3px solid white;
+  filter: blur(6px);
+  border-radius: 10px; /* Sesuaikan dengan button */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1; /* Pastikan bayangan di belakang */
+}
+
+.btn:hover::before {
+  opacity: 1;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
