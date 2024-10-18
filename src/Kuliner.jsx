@@ -94,7 +94,7 @@ export default function Kuliner() {
                     <span
                       className="lg:bottom-10 md:bottom-1.5 right-16 scale-100"
                     >
-                      <Fillbutton href="/makanan" fill="bg-slate-300">View More</Fillbutton>
+                      <Fillbutton href="/makanan" fill="bg-slate-300">Lihat Lainnya</Fillbutton>
                     </span>
                   </div>
                 </div>
