@@ -67,7 +67,13 @@ const AboutUs = () => {
                 opacity: isInView ? 100 : 0
               }}
             >
-              Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
+             Destinasi jember menawarkan pemandangan alam yang memukau, dengan pantai berpasir putih dan air laut yang jernih, serta dipadukan dengan keindahan budaya lokal yang autentik. Ideal untuk mereka yang ingin melarikan diri dari rutinitas dan menikmati ketenangan alam."
+
+
+
+
+
+
             </p>
             <p className="text-gray-600 mb-4 duration-700 delay-200"
               style={{
@@ -75,9 +81,9 @@ const AboutUs = () => {
                 opacity: isInView ? 100 : 0
               }}
             >
-              Every journey is a new experience that brings excitement and wonder. Let us guide you on this incredible adventure, where memories are made.
+             Setiap perjalanan adalah pengalaman baru yang membawa kegembiraan dan keajaiban. Biarkan kami membimbing Anda dalam petualangan luar biasa ini, di mana kenangan tercipta.
             </p>
-          <Fillbutton href='/destination' fill="bg-yellow-500">View More</Fillbutton>
+          <Fillbutton href='/destination' fill="bg-slate-300">View More</Fillbutton>
 
           </div>
         </div>
