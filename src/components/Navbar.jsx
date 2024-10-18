@@ -63,7 +63,7 @@ export default function Navbar() {
           className={`${NavButton ? "-top-80 md:-top-96 md:opacity-100" : "top-[55px] md:top-[65px] opacity-100 translate-y-0 scale-100 z-0" } bg-slate-200 absolute lg:static px-20 w-screen justify-center lg:justify-between text-[17px] transition-all duration-500 md:flex md:flex-row text-neutral-800 font-semibold uppercase flex items-center gap-4 md:gap-8 md:w-screen`}
         >
           
-          <img src="public/image/logo-new.svg" alt="logo" className="hidden lg:block relative " />
+          <img src="public/image/logo-new.svg"  alt="logo" className="hidden lg:block relative " />
           <div className="flex flex-col lg:flex-row gap-5 pb-5 md:pb-0 z-10 text-center">
           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Beranda</a>
           <a href="#" className="hover:text-violet-700  hover:scale-100 duration-200 transition-all scale-95 z-10">Artikel</a>
