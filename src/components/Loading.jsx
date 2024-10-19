@@ -47,7 +47,7 @@ function Loading() {
     <div className="w-full h-screen flex items-center justify-center fixed overflow-hidden z-50 top-0">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-blue-400 animate-pulse opacity-30" />
       <img
-        src="public/image/svg-bg-destinasi.svg"
+        src="/image/svg-bg-destinasi.svg"
         alt=""
         className="w-screen scale-125 p-0 absolute opacity-[0.02]"
       />

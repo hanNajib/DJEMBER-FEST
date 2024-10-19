@@ -17,7 +17,7 @@ export default function Kuliner() {
       <div className="w-screen h-full lg:h-[150vh] pt-36 relative overflow-x-hidden overflow-y-hidden" id="umkm">
         <div className="w-full h-full bg-slate-300 absolute rotate-[2deg] scale-110"></div>
         <div className="absolute z-10 scale-125 opacity-20 mt-40">
-          <img src="../public/image/makanrevisi.svg" alt="" />
+          <img src="/image/makanrevisi.svg" alt="" />
         </div>
         <div className="relative h-full w-full bg-gradient-to-b from-slate-300 to-slate-400 mt-20">
           <div className="flex flex-col md:flex-row px-4 md:px-0 relative z-10 -translate-y-28 scale-90">
@@ -43,7 +43,7 @@ export default function Kuliner() {
                     terlupakan!
                   </p>
                   <div className="relative mt-10 w-full hidden md:block">
-                    <img src="public/image/undraw_street_food_re_uwex.svg" alt="" className="w-10/12" />
+                    <img src="/image/undraw_street_food_re_uwex.svg" alt="" className="w-10/12" />
                   </div>
                   <div className="transition-all mt-10">
                     <span
