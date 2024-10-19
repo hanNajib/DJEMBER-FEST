@@ -22,10 +22,7 @@ const AboutUs = () => {
 
       <div className="container mx-auto px-4 w-full">
         <h2
-          className="text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4 duration-700 delay-200 overflow-hidden lg:hidden flex flex-row gap-2"
-          style={{
-            width: isInView ? "100%" : "0px",
-          }}
+          className={`${ isInView ? 'w-full' : 'w-0'} text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4 duration-700 delay-200 overflow-hidden lg:hidden flex flex-row gap-2`}
         >
           Destinasi
           <svg
@@ -45,11 +42,7 @@ const AboutUs = () => {
               <img
                 src="image/gallery/antrokan.jpg"
                 alt="image1"
-                className="rounded-lg shadow-lg object-cover w-32 md:w-56 lg:w-full overflow-hidden h-56 md:h-96 duration-700 delay-100"
-                style={{
-                  transform: isInView ? "none" : "translateX(-200px)",
-                  opacity: isInView ? 100 : 0,
-                }}
+                className={`${ isInView ? 'translate-x-0 opacity-100' : '-translate-y-52 opacity-0'} rounded-lg shadow-lg object-cover w-32 md:w-56 lg:w-full overflow-hidden h-56 md:h-96 duration-700 delay-100`}
               />
             </div>
 
@@ -58,22 +51,14 @@ const AboutUs = () => {
                 <img
                   src="image/gallery/papuma1.jpg"
                   alt="image2"
-                  className="rounded-lg shadow-lg object-cover w-48 md:h-48 md:w-96 duration-700 delay-100 overflow-hidden"
-                  style={{
-                    transform: isInView ? "none" : "translateX(200px)",
-                    opacity: isInView ? 100 : 0,
-                  }}
+                  className={` ${ isInView ? 'translate-x-0 opacity-100' : 'translate-x-52 opacity-0'} rounded-lg shadow-lg object-cover w-48 md:h-48 md:w-96 duration-700 delay-100 overflow-hidden`}
                 />
               </div>
               <div className="relative top-10">
                 <img
                   src="image/gallery/gambir.jpg"
                   alt="image3"
-                  className="rounded-lg shadow-lg object-cover w-40 h-40 md:h-80 md:w-80 duration-700 delay-100 overflow-hidden"
-                  style={{
-                    transform: isInView ? "none" : "translateY(200px)",
-                    opacity: isInView ? 100 : 0,
-                  }}
+                  className={` ${ isInView ? 'translate-x-0 opacity-100' : 'translate-y-52 opacity-0'}rounded-lg shadow-lg object-cover w-40 h-40 md:h-80 md:w-80 duration-700 delay-100 overflow-hidden`}
                 />
               </div>
             </div>
@@ -82,10 +67,7 @@ const AboutUs = () => {
           <div className="lg:w-1/2 mt-8 md:mt-0 lg:ml-16">
             <div className="flex relative">
               <h2
-                className="hidden lg:flex text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4 duration-700 delay-200 overflow-hidden flex-row gap-2"
-                style={{
-                  width: isInView ? "100%" : "0px",
-                }}
+                className={`${ isInView ? 'w-full' : 'w-0'} hidden lg:flex text-7xl md:text-9xl font-bebas_neue font-bold text-neutral-800 mb-4 duration-700 delay-200 overflow-hidden flex-row gap-2`}
               >
                 Destinasi
                 <svg
@@ -101,11 +83,7 @@ const AboutUs = () => {
               </h2>
             </div>
             <p
-              className="text-gray-600 mb-4 duration-700 delay-200 overflow-hidden"
-              style={{
-                transform: isInView ? "none" : "translateX(200px)",
-                opacity: isInView ? 100 : 0,
-              }}
+              className={` ${ isInView ? 'translate-x-0 opacity-100' : 'translate-x-52 opacity-0'} text-gray-600 mb-4 duration-700 delay-200 overflow-hidden`}
             >
               Destinasi jember menawarkan pemandangan alam yang memukau, dengan
               pantai berpasir putih dan air laut yang jernih, serta dipadukan
@@ -114,11 +92,7 @@ const AboutUs = () => {
               alam.
             </p>
             <p
-              className="text-gray-600 mb-4 duration-700 delay-200 overflow-hidden"
-              style={{
-                transform: isInView ? "none" : "translateX(200px)",
-                opacity: isInView ? 100 : 0,
-              }}
+              className={`${ isInView ? 'translate-x-0 opacity-100' : 'translate-x-52 opacity-0'} text-gray-600 mb-4 duration-700 delay-200 overflow-hidden`}
             >
               Setiap perjalanan adalah pengalaman baru yang membawa kegembiraan
               dan keajaiban. Biarkan kami membimbing Anda dalam petualangan luar
