@@ -16,7 +16,7 @@ const SpecialDeals = () => {
     { id: 8, name: 'Pia Tape', image: 'image/gallery/pia.jpg', url: 'https://www.primadonajember.com/produk/pia-tape-jember/' },
     { id: 9, name: 'Sate Cak RI', image: 'image/gallery/satecr.jpg', url: 'https://gofood.co.id/jember/restaurant/warung-sate-cak-ri-sumber-bendo-f0245037-9b64-40ca-a1af-eaa140667d6d' },
     { id: 10, name: 'Mie Pangsit Rama', image: 'image/gallery/mie.jpg', url: 'https://gofood.co.id/id/jember/restaurant/pangsit-mie-rama-diponegoro-aec56a74-7920-46c5-ab2e-8db77dedb53c' },
-    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg', url: 'https://gofood.co.id/id/jember/restaurant/pangsit-mie-rama-diponegoro-aec56a74-7920-46c5-ab2e-8db77dedb53c' },
+    { id: 11, name: 'Mie Bakso Pojok Mangli', image: 'image/gallery/mie-pojok-mangli.jpg', url: 'https://gofood.co.id/jember/restaurant/bakso-solo-pojok-mangli-1-87b64c8a-47a0-4671-9e2a-e82ea260860e' },
     { id: 12, name: 'Gudeg Lumintu', image: 'image/gallery/gudeg-lumintu.jpg', url: 'https://gofood.co.id/jember/restaurant/warung-nasi-gudeg-lumintu-kertanegara-7a5657a4-bb41-4901-bb99-8c9299d75e40' },
   ];
 

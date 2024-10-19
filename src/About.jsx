@@ -7,7 +7,7 @@ export default function About() {
                     <p className=" text-slate-100 text-xs md:text-base leading-8">Jember adalah kota di Jawa Timur yang dikenal dengan kekayaan budaya, alam, dan pertanian. Dikenal sebagai pusat tembakau, Jember menawarkan keindahan alam, seperti pantai dan pegunungan. Selain itu, kota ini juga terkenal dengan berbagai festival, seperti Jember Fashion Carnival, yang menampilkan seni dan kreativitas lokal.</p>
                 </div>
                 <div className="relative">
-                    <img src="../public/image/panorama.webp" alt="" className="px-5 pt-5 rounded-xl shadow-lg md:pt-0 md:px-0"/>
+                    <img src="/image/panorama.webp" alt="" className="px-5 pt-5 rounded-xl shadow-lg md:pt-0 md:px-0"/>
                 </div>
             </div>
             <div className="relative flex justify-center items-center bg-neutral-800 pb-10">
