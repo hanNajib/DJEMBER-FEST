@@ -31,7 +31,7 @@ export default function App() {
 
         <div className="flex gap-7 relative top-2 left-1 scale-75 md:left-12 lg:left-28 md:justify-normal md:scale-100">
         <a
-  href=""
+  href="#about"
   className="btn relative w-40 h-14 bg-gradient-to-tr from-indigo-800 to-sky-600 font-semibold shadow-lg border-slate-100 text-white rounded-lg text-2xl flex justify-center items-center text-[16px] hover:scale-95 hover:shadow-sm hover:shadow-slate-400 transition-all duration-300 overflow-hidden"
 >
   Get Started
