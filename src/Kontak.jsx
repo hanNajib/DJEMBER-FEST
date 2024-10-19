@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
 
 function Kontak() {
@@ -25,10 +26,18 @@ function Kontak() {
       )
       .then(
         (result) => {
-          alert("Pesan berhasil terkirim!");
+          Swal.fire({
+            title: "Berhasil!",
+            text: "Pesan Berhasil Terkirim!",
+            icon: "success"
+          });
         },
         (error) => {
-          alert("Terjadi kesalahan. Pesan gagal terkirim.");
+          Swal.fire({
+            title: "Gagal",
+            text: "Pesan Tidak Terkirim!",
+            icon: "error"
+          });
         }
       );
   };
