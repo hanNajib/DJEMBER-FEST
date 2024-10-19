@@ -24,11 +24,11 @@ const SpecialDeals = () => {
     deal.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Set up the animation effect for the title
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 500); // Delay 500ms before the text appears
+    }, 500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -50,7 +50,7 @@ const SpecialDeals = () => {
               <p className="sh judul text-[4rem] text-slate-50 text-center md:mb-0 font-bebas_neue font-semibold md:text-[6rem] lg:text-[9rem]">
                 Kuliner UMKM Jember
               </p>
-              <a href="/" className='border-2 p-4 text-[20px] text-white relative w-[15rem] text-center rounded-xl font-bold'>
+              <a href="/" className='border-2 p-2 md:p-4 text-[0.8rem] md:text-[20px] text-white relative w-[15rem] text-center rounded-xl font-bold'>
                 Kembali ke beranda
               </a>
             </div>
