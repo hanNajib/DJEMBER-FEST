@@ -29,7 +29,7 @@ export default function Kuliner() {
 
             <div className="flex justify-center items-center w-full h-full md:w-screen md:-bottom-64 absolute lg:relative lg:scale-90 lg:-translate-y-56 -bottom-36 right-1">
               <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-              <div className="md:w-[80vw] lg:w-[50vw] lg:h-full w-screen md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative flex flex-col">
+              <div className="md:w-[80vw] lg:w-[50vw] lg:h-full w-screen md:h-[90vh] h-full top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 rounded-3xl shadow-lg relative flex flex-col">
               <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
                     Tahukah Kamu?
                   </h1>
@@ -55,7 +55,7 @@ export default function Kuliner() {
                   </div>
                 </div>
 
-                <div className="md:w-[80vw] lg:w-[50vw] w-screen lg:h-full md:h-[90vh] h-[70vh] top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 md:pb-10 rounded-3xl shadow-lg relative overflow-clip">
+                <div className="md:w-[80vw] lg:w-[50vw] w-screen lg:h-full md:h-[90vh] h-full top-0 lg:top-24 md:-top-5 scale-90 lg:scale-90 md:scale-100 bg-slate-50 p-6 md:p-16 md:pb-10 rounded-3xl shadow-lg relative overflow-clip">
                   <h1 className="text-3xl md:text-5xl font-bold text-neutral-800 font-sans">
                     Kuliner UMKM
                   </h1>
