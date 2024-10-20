@@ -7,7 +7,7 @@ export default function Destination() {
     {
       judul: "Pantai Papuma",
       lokasi: "Wuluhan, Jember, Jawa Timur.",
-      deskripsi: "Pantai Papuma merupakan pantai yang indah. Kawasan pantai ini memiliki daratan yang menjorok ke laut membuat area pantai memiliki panorama yang indah untuk dinikmati. Salah satu keindahan pantai adalah adanya kawasan yang banyak karang. ",
+      deskripsi: "Pantai Papuma merupakan pantai yang indah. Kawasan pantai ini memiliki daratan yang menjorok ke laut membuat area pantai memiliki panorama yang indah untuk dinikmati. Salah satu keindahan pantai adalah adanya kawasan yang banyak karang.",
       image: "/image/gallery/papuma1.jpg",
       posisi: "kanan",
       href: 'https://maps.app.goo.gl/qGj6oaTED2WPdkBA7'
@@ -19,12 +19,11 @@ export default function Destination() {
       image: "/image/gallery/love.webp",
       posisi: "kiri",
       href: 'https://maps.app.goo.gl/jThjDGsycRUVqZbW9'
-      
     },
     {
       judul: "Gunung Gambir",
       lokasi: "Sumberbaru, Jember, Jawa Timur",
-      deskripsi: "Kebun Teh Gunung Gambir adalah sebuah kebun teh seluas 183 hektar. Kebun teh ini tepatnya terletak di lereng Gunung Argopuro yang berjarak ± 60 km dari pusat kota Jember dan terletak pada ketinggian 900 meter di atas permukaan laut. ",
+      deskripsi: "Kebun Teh Gunung Gambir adalah sebuah kebun teh seluas 183 hektar. Kebun teh ini tepatnya terletak di lereng Gunung Argopuro yang berjarak ± 60 km dari pusat kota Jember dan terletak pada ketinggian 900 meter di atas permukaan laut.",
       image: "/image/gallery/gunung-gambir.webp",
       posisi: "kanan",
       href: 'https://maps.app.goo.gl/GPErjJuhZjZzWswMA'
@@ -32,7 +31,7 @@ export default function Destination() {
     {
       judul: "Nusa Barung",
       lokasi: "Puger, Jember, Jawa Timur",
-      deskripsi: "Nusa Barung memiliki beragam ekosistem seperti hutan pantai, mangrove, dan hutan tropis dataran rendah dengan berbagai jenis flora dan fauna.Fauna.",
+      deskripsi: "Nusa Barung memiliki beragam ekosistem seperti hutan pantai, mangrove, dan hutan tropis dataran rendah dengan berbagai jenis flora dan fauna.",
       image: "/image/gallery/Barung Island.webp",
       posisi: "kiri",
       href: 'https://maps.app.goo.gl/j4QvGQLxpn6NAuiF9'
@@ -66,9 +65,6 @@ export default function Destination() {
   // State untuk pencarian
   const [searchTerm, setSearchTerm] = useState("");
   
-  // State untuk animasi muncul
-  const [isVisible, setIsVisible] = useState(false);
-
   // Fungsi untuk menangani input pencarian
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
@@ -79,18 +75,15 @@ export default function Destination() {
     destinasi.judul.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Mengatur animasi muncul setelah 0.5 detik
+  // Scroll to top when page loads
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 500); // Delay 500ms sebelum teks muncul
-    return () => clearTimeout(timer);
+    window.scrollTo(0, 0); // Memastikan scroll di posisi atas saat halaman terbuka
   }, []);
 
   return (
     <>
       <div className="bg-neutral-800 overflow-x-hidden" id="home">
-        <section className="home w-[100vw] h-[100vh]" id="">
+        <section className="home w-[100vw] h-[100vh]">
           <div
             className="absolute w-full h-[100vh] inset-0 bg-cover bg-right bg-fixed opacity-70"
             style={{
@@ -99,12 +92,10 @@ export default function Destination() {
             }}
           ></div>
 
-          <div className="absolute w-full h-[105vh] bg-fixed"></div>
+          <div className="absolute w-full h-[100vh] bg-fixed"></div>
 
-         
-
-          {/* Teks dengan Animasi Muncul */}
-          <div className={`w-[100%] h-full flex items-center justify-center relative transition-transform duration-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
+          {/* Teks tanpa animasi scroll */}
+          <div className={`w-[100%] h-full flex items-center justify-center relative`}>
             <div className="text flex items-center flex-col">
               <p className="sh judul text-[3rem] md:text-[4rem] lg:text-[10rem] text-slate-50 text-center font-bebas_neue font-semibold">
                 Destinasi kota Jember
@@ -155,7 +146,7 @@ export default function Destination() {
                   href={destinasi.href}
                   className="transition-transform hover:scale-105"
                 />
-              ) :   (
+              ) : (
                 <DestinasiKiri
                   judul={destinasi.judul}
                   lokasi={destinasi.lokasi}
